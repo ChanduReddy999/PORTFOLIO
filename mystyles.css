@@ -683,7 +683,7 @@ border-left: 3px solid rgb(162, 188, 225);
 position: relative;
 margin-left: 690px;
 margin-bottom: -300px;
-margin-top: -15px;
+margin-top: -315px;
 
 }
 
@@ -733,7 +733,7 @@ padding: 0 0 20px 20px;
 /* padding-top: -420px; */
 border-left: 3px solid rgb(162, 188, 225);
 position: relative;
-margin-left: 690px;
+margin-left: 140px;
 margin-top: 20px;
 
 }
@@ -1344,8 +1344,8 @@ animation-timing-function: linear;
   display: grid;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows:  350px;
- height: auto;
- width: auto;
+  height: auto;
+  width: auto;
   flex-wrap: wrap;
   justify-items: center;
   align-items: center;
@@ -1374,6 +1374,7 @@ animation-timing-function: linear;
 
 h5 {
   margin-left: 430px;
+  padding-bottom: 15px;
 }
 
 
@@ -1383,7 +1384,7 @@ h5 {
 
 
 .serv1 {
-  height: 350px;
+  height: 380px;
   width: 300px;
   display: grid;
   background-color: #fff ;
@@ -1434,7 +1435,7 @@ h5 {
 
 .webtitle {
   font-size: 25px;
-  margin-top: 10px;
+  margin-top: 40px;
   /* margin-left: 40px; */
   text-align: center;
 }
@@ -1442,15 +1443,16 @@ h5 {
 .webdes {
   
   font-size: 10px;
-  margin-top: 20px;
+  margin: 20px;
   align-items: center;
-  text-align: center;
+  text-align: justify;
+  
   
 }
 
 /* ------------------------------------------------- */
 .serv2 {
-  height: 350px;
+  height: 380px;
   width: 300px;
   background-color: #fff ;
   /* margin-top: -315px; */
@@ -1504,9 +1506,9 @@ animation-name: spin;
 
 .webdevpdes {
   font-size: 10px;
-  margin-top: 20px;
+  margin: 20px;
   align-items: center;
-  text-align: center;
+  text-align: justify;
 
 }
 
@@ -1514,15 +1516,12 @@ animation-name: spin;
 
 
 
-
+/* service 3 is not used in index.html */
 /* --------------------------------------------------------------- */
 .serv3 {
-  height: 350px;
+  height: 380px;
   width: 300px;
   background-color: #fff ;
-  /* margin-top: -330px; */
-  /* margin-left: 350px; */
-  /* border: 2px solid black; */
   border-radius: 20px;
   background-color: #fff;
   padding: 2.5rem 1.3rem;
@@ -1537,7 +1536,7 @@ animation-name: spin;
  
 }
 
-.paragrap  {
+/* .paragrap  {
   height: 100px;
   width: 100px;
   font-size: 3rem;
@@ -1547,37 +1546,36 @@ animation-name: spin;
   text-align: center;
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
-}
+} */
 
 
-.service-box:hover .paragrap {
+/* .service-box:hover .paragrap {
   transition: all 500ms ease;
   color: #fff;
   background-color: #0078ff;
   box-shadow: 0 0 0 10px #cde1f8;
 
-}
+} */
 
-.paragraphtitle {
+/* .paragraphtitle {
   font-size: 25px;
   margin-top: 40px;
-  /* margin-left: 40px; */
   text-align: center;
 
-}
+} */
 
-.parades {
+/* .parades {
   font-size: 10px;
-  margin-top: 20px;
+  margin: 20px;
   align-items: center;
   text-align: center;
 
-}
+} */
 
 
 /* ------------------------------------------------------------- */
 .serv4 {
-  height: 350px;
+  height: 380px;
   width: 300px;
   background-color: #fff ;
   /* margin-top: 435px; */
@@ -1629,20 +1627,18 @@ animation-name: spin;
 
 .designdes {
   font-size: 10px;
-  margin-top: 20px;
+  margin: 20px;
   align-items: center;
-  text-align: center;
+  text-align: justify;
 }
 
 
+/* service 5 is not used in index.html */
 /* ---------------------------------------------------------------------- */
-.serv5 {
+/* .serv5 {
   height: 350px;
   width: 300px;
   background-color: #fff ;
-  /* margin-top: -310px; */
-  /* margin-left: 360px; */
-  /* border: 2px solid black; */
   border-radius: 20px;
   background-color: #fff;
   padding: 2.5rem 1.3rem;
@@ -1680,7 +1676,6 @@ animation-name: spin;
 .graphictitle {
   font-size: 25px;
   margin-top: 40px;
-  /* margin-left: 40px; */
   text-align: center;
 }
 
@@ -1690,17 +1685,15 @@ animation-name: spin;
   align-items: center;
   text-align: center;
 
-}
+} */
 
 
+/* service 6 is not used in index.html */
 /* ------------------------------------------------------------------------- */
-.serv6 {
+/* .serv6 {
   height: 350px;
   width: 300px;
   background-color: #fff ;
-  /* margin-top: -299px; */
-  /* margin-left: 350px; */
-  /* border: 2px solid black; */
   border-radius: 20px;
   background-color: #fff;
   padding: 2.5rem 1.3rem;
@@ -1736,12 +1729,9 @@ animation-name: spin;
 }
 
 
-
-
 .markettitle {
   font-size: 25px;
   margin-top: 40px;
-  /* margin-left: 40px; */
   text-align: center;
 }
 
@@ -1751,7 +1741,7 @@ animation-name: spin;
   align-items: 7enter;
   text-align: center;
 
-}
+} */
 
 /* ============================================================ */
 
@@ -1819,7 +1809,7 @@ animation-name: spin;
   margin-top: 10px;
 }
 
-.name11111 {
+.name1 {
   margin-top: 42px;
 }
 
@@ -2122,7 +2112,7 @@ border-radius: 70px;
 
 .icons img {
 
-  margin-top: 55px;
+  margin-top: 40px;
   margin-left: 33px;
   height: 70px;
   width: 39px;
