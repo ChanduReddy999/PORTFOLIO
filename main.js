@@ -245,3 +245,52 @@
       backDelay: 2000
     });
   }
+
+
+
+
+
+// Contact Page JS code starts here
+
+  function submitForm() {
+    // Get the values from the form
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const subject = document.getElementById("subject").value;
+    const message = document.getElementById("message").value;
+  
+    // Check that all fields are filled in
+    if (!name || !email || !subject || !message) {
+      alert("Please fill in all fields.");
+      return;
+    }
+  
+    // Send the form data to the server (replace the URL with your own server-side script)
+    const url = "https://example.com/contact";
+    const data = { name: name, email: email, subject: subject, message: message };
+    fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
+    })
+    .then(response => {
+      if (response.ok) {
+        alert("Form submitted successfully.");
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("subject").value = "";
+        document.getElementById("message").value = "";
+      } else {
+        alert("An error occurred. Please try again later.");
+      }
+    })
+    .catch(error => {
+      console.error(error);
+      alert("An error occurred. Please try again later.");
+    });
+  }
+  
+
+  // Contact Page JS code ends here
