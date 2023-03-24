@@ -613,6 +613,7 @@ text-indent: 53px;
 font-size: 16px;
 text-align: justify;
 padding-right: 30px;
+color: #695CFE;
 }
 
 .resume .resume-title {
@@ -1373,8 +1374,9 @@ animation-timing-function: linear;
 }
 
 h5 {
-  margin-left: 430px;
+  margin-left: 200px;
   padding-bottom: 15px;
+  color: #695CFE;
 }
 
 
@@ -1747,11 +1749,12 @@ animation-name: spin;
 
 /* Contact page starts here  */
 .contact {
-  height: 100vh;
-  width: 100vw;
+  height: 85vh;
+  width: 85vw;
   /* background-color: #707070; */
   margin-left: 60px;
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 
 }
 
@@ -1782,7 +1785,7 @@ animation-name: spin;
   /* grid-row-gap: 3px; */
   background-color: whitesmoke;
   box-shadow: 0px 5px 20px 5px rgb(60, 61, 62);
-  
+  border-radius: 10px;
 
 }
 
@@ -1797,20 +1800,20 @@ animation-name: spin;
   /* padding-bottom: 62px; */
   /* margin-top: 232px; */
   margin-left: -900px ;
-  margin-top: 30px;
+  margin-top: 50px;
   display: block;
   line-height: 32px;
   
   
 }
 
-#hello111 {
+#hello1 {
   margin-left: 860px;
-  margin-top: 10px;
+  margin-top: -10px;
 }
 
 .name1 {
-  margin-top: 42px;
+  margin-top: 10px;
 }
 
 .name {
@@ -1836,29 +1839,21 @@ animation-name: spin;
   margin-left: 520px;
   /* margin-top: 80px; */
   /* line-height: 20px; */
-
-}
-
-.form-control {
   border: none;
   border-bottom: 1px solid rgba(84, 97, 235, 0.8);
-  padding: 0;
+  padding: 10px;
   /* margin-left: 300px; */
   width: 320px;
   margin-top: 10px;
 }
 
-/* .typeholder {
-  margin-left: 12px;
-} */
-
-.email {
+.email1 {
   margin-top: -88px;
   margin-left: 670px;
   border-radius: 10px;
 }
-.email1 {
-  margin-top: 12px;
+.email {
+  margin-top: 10px;
   margin-left: 260px;
 }
 
@@ -1878,7 +1873,7 @@ animation-name: spin;
 .form-control1 {
   border: none;
   border-bottom: 1px solid rgba(84, 97, 235, 0.8);
-  padding: 0;
+  padding: 10px;
   /* margin-left: 300px; */
   width: 660px;
   /* margin-top: 5px; */
@@ -1904,10 +1899,10 @@ animation-name: spin;
 
 }
 
-.form-contro5 {
+.form-control5 {
   border: none;
   border-bottom: 1px solid rgba(84, 97, 235, 0.8);
-  padding: 0;
+  padding: 10px;
   /* margin-left: 300px; */
   width: 660px;
   /* margin-top: 5px; */
@@ -1968,12 +1963,14 @@ animation-name: spin;
   grid-row-end: 2;
   display: grid;
   width: 350px;
+  height: 473px;
   display: block;
-  /* margin-left: 120px; */
   /* font-size: 22px; */
-  /* margin-top: 12px; */
+  margin-top: 20px;
+  margin-left: 20px;
   background-color: rgb(176, 248, 197);
   align-items: center;
+  border-radius: 10px;
   
   /* background-position: 120px; */
  
@@ -1982,7 +1979,7 @@ animation-name: spin;
 
 #lets {
   color: #0078ff;
-  margin-top: 30px;
+  margin-top: 15px;
   /* padding-right: 120px; */
   margin-left: 50px;
   font-size: 30px;
@@ -2112,10 +2109,10 @@ border-radius: 70px;
 
 .icons img {
 
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 33px;
   height: 70px;
-  width: 39px;
+  width: 40px;
   text-align: center; 
   transition: 1.5s, ease-in-out;  
   color: aquamarine;
@@ -2124,7 +2121,7 @@ border-radius: 70px;
 }
 .icons img:hover {
 
-   color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
    
 }
  
