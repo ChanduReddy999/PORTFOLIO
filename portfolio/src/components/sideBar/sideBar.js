@@ -20,37 +20,37 @@ const SideBar = () => {
                     <div>
                         <ul>
                             <li>
-                                <a href='#'>
+                                <a href='#dashBoard'>
                                     <img src='#' alt='' />
                                     <p>DashBoard</p>
                                 </a>
                             </li>
                             <li>
-                                <a href='#'>
+                                <a href='#about'>
                                     <img src='#' alt='' />
                                     <p>About</p>
                                 </a>
                             </li>
                             <li>
-                                <a href='#'>
+                                <a href='#resume'>
                                     <img src='#' alt='' />
                                     <p>Resume</p>
                                 </a>
                             </li>
                             <li>
-                                <a href='#'>
+                                <a href='#skills'>
                                     <img src='#' alt='' />
                                     <p>Skills</p>
                                 </a>
                             </li>
                             <li>
-                                <a href='#'>
+                                <a href='#services'>
                                     <img src='#' alt='' />
                                     <p>Services</p>
                                 </a>
                             </li>
                             <li>
-                                <a href='#'>
+                                <a href='#contact'>
                                     <img src='#' alt='' />
                                     <p>Contact</p>
                                 </a>

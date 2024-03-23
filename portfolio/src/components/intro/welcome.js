@@ -4,7 +4,7 @@ import './welcome.css'
 function Welcome() {
     return (
         <>
-            <div className='welcome'>
+            <div className='welcome' id='dashBoard'>
                 <h1 className='chandu'>Chandra Shekar Reddy Vadala</h1>
                 <h2 className='developer'>Web Developer</h2>
             </div>
