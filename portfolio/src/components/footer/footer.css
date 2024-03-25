@@ -1,0 +1,19 @@
+.footerDiv{
+    /* width: 100%; */
+    height: 55px;
+    background-color: rgb(154, 214, 216);
+    text-align: center;
+    font-weight: bolder;
+}
+.footerP1{
+    padding-top: 10px;
+}
+.footerP2{
+    padding-bottom: 10px;
+}
+.footerP2Span{
+    color: rgb(172, 111, 20);
+}
+.footerP2Span:hover{
+    color: rgb(55, 162, 237);
+}

@@ -1,0 +1,18 @@
+
+
+
+.mySkillsSecondDiv{
+    display: flex;
+    height: 250px;
+}
+.mySkillsThirdDiv{
+    display: flex;
+    height: 250px;
+}
+
+
+.skillsImg{
+    width: 150px;
+    height: 200px;
+}
+
