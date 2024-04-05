@@ -1,0 +1,26 @@
+.servicesMain{
+    width: 100%;
+    background-color: rgb(227, 249, 255);
+}
+.servicesH1{
+    text-align: center;
+}
+.servicesP{
+    text-align: center;
+}
+
+.servicesSubDiv{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(102, 176, 236);
+    margin-top: 20px;
+    margin-left: 450px;
+}
+.servicesSubDivImgDiv1{
+    width: 200px;
+    height: 200px;
+}
+.servicesSubDivImg{
+    width: 180px;
+    height: 180px;
+}
