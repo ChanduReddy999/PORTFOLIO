@@ -15,12 +15,30 @@
     background-color: rgb(102, 176, 236);
     margin-top: 20px;
     margin-left: 450px;
+    border-radius: 10px;
 }
 .servicesSubDivImgDiv1{
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    background-color: aliceblue;
+    border-radius: 50%;
 }
 .servicesSubDivImg{
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.servicesSubDivDiv2{
+
+}
+.servicesSubDivDiv2H2{
+    text-align: center;
+}
+.servicesSubDivDiv2P{
+    text-align:justify;
+    padding: 10px;
 }
