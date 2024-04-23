@@ -12,54 +12,54 @@ import Contact from '../../Images/contactIcon.png'
 const SideBar = () => {
     return (
         <>
-            <nav>
-                <header>
-                    <div>
+            <nav className='sideBarMain'>
+                <header className='sideBarHeader'>
+                    <div className='sideBarHeaderLogo'>
                         <img src={CSR} className='SideBarCSRIcon' alt='CSR icon' />
                         <div>
                             <p>Chandra Shekar Reddy Vadala</p>
                             <p>Web Developer</p>
                         </div>
                     </div>
-                    <div>
+                    <div className='SideBarMenuIconDiv'>
                         <img src={Menu} className='SideBarMenuIcon' alt='> icon' />
                     </div>
                 </header>
-                <div>
-                    <div>
-                        <ul>
-                            <li>
-                                <a href='#dashBoard'>
+                <div className='sideBarDiv'>
+                    <div className='sideBarDivOne'>
+                        <ul className='sideBarDivOneUL'>
+                            <li className='sideBarDivOneLI'>
+                                <a href='#dashBoard' className='sideBarAnchorIcons'>
                                     <img src={Home} className='SideBarHomeIcon' alt='Home' />
                                     <p>DashBoard</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href='#about'>
+                            <li className='sideBarDivOneLI'>
+                                <a href='#about' className='sideBarAnchorIcons'>
                                     <img src={About} className='SideBarAboutIcon' alt='About' />
                                     <p>About</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href='#resume'>
+                            <li className='sideBarDivOneLI'>
+                                <a href='#resume' className='sideBarAnchorIcons'>
                                     <img src={Resume} className='SideBarResumeIcon' alt='Resume' />
                                     <p>Resume</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href='#skills'>
+                            <li className='sideBarDivOneLI'>
+                                <a href='#skills' className='sideBarAnchorIcons'>
                                     <img src={Skills} className='SideBarSkillsIcon' alt='Skills' />
                                     <p>Skills</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href='#services'>
+                            <li className='sideBarDivOneLI'>
+                                <a href='#services' className='sideBarAnchorIcons'>
                                     <img src={Services} className='SideBarServicesIcon' alt='Services' />
                                     <p>Services</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href='#contact'>
+                            <li className='sideBarDivOneLI'>
+                                <a href='#contact' className='sideBarAnchorIcons'>
                                     <img src={Contact} className='SideBarContactIcon' alt='Contact' />
                                     <p>Contact</p>
                                 </a>

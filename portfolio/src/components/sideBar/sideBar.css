@@ -1,7 +1,49 @@
+.sideBarMain{
+    width: 250px;
+    height: 100vh;
+    background-color:antiquewhite;
+    position: fixed;
+}
+.sideBarHeader{
+    margin: 10px;
+}
+.sideBarHeaderLogo{
+    display: flex;
+}
+.SideBarMenuIconDiv{
+    /* width: 40px;
+    height: 40px; */
+    /* background-color: white; */
+    /* border-radius: 50%; */
+    margin-left: 225px;
+    margin-top: -30px;
+}
+/* .SideBarMenuIcon{
+    margin-top: -10px;
+} */
+
+.sideBarDiv{
+    background-color: rgb(227, 223, 192);
+    height: 100vh;
+}
+
+.sideBarDivOneUL{
+    list-style:none;
+    margin-left: 20px;
+}
+
+.sideBarAnchorIcons{
+    display: flex;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+}
 
 
 
 
+/* Images */
 
 .SideBarCSRIcon{
     width: 30px;
@@ -17,29 +59,35 @@
     width: 30px;
     height: 30px;
     border-radius: 10px;
+    padding-right: 10px;
 }
 .SideBarAboutIcon{
     width: 30px;
     height: 30px;
     border-radius: 10px;
+    padding-right: 10px;
 }
 .SideBarResumeIcon{
     width: 30px;
     height: 30px;
     border-radius: 10px;
+    padding-right: 10px;
 }
 .SideBarSkillsIcon{
     width: 30px;
     height: 30px;
     border-radius: 10px;
+    padding-right: 10px;
 }
 .SideBarServicesIcon{
     width: 30px;
     height: 30px;
     border-radius: 10px;
+    padding-right: 10px;
 }
 .SideBarContactIcon{
     width: 30px;
     height: 30px;
     border-radius: 10px;
+    padding-right: 10px;
 }
