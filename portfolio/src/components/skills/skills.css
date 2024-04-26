@@ -1,4 +1,11 @@
-
+.mySkillsMain{
+    margin: 0 50px 0 300px;
+}
+.mySkillsFirstDivHeading{
+    padding: 20px 0;
+    text-align: center;
+    color: blue;
+}
 
 
 .mySkillsSecondDiv{
@@ -12,7 +19,9 @@
 
 
 .skillsImg{
-    width: 150px;
-    height: 200px;
+    width: 100px;
+    height: 150px;
 }
+
+
 

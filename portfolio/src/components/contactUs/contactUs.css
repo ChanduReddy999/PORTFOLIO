@@ -1,0 +1,37 @@
+.contactPage{
+    margin: 0 50px 0 300px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.contactDetails1{
+    background-color: aquamarine;
+    margin: 20px;
+    border-radius: 20px;
+    width: 450px;
+}
+
+.contactDetails1SubDiv{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contactDetails1SubDivHeading{
+    color: blue;
+}
+
+.logoDimensions{
+    width: 40px;
+
+}
+.iconsmatter{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.contactDetails1SubDiv3{
+    margin: 20px 50px;
+    display: flex;
+    gap: 40px;
+}

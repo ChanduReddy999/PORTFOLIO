@@ -17,7 +17,7 @@ const Skills = () => {
         <>
             <div id='skills' className='mySkillsMain'>
                 <div className='mySkillsFirstDiv'>
-                    <h1>My Skills</h1>
+                    <h1 className='mySkillsFirstDivHeading'>My Skills</h1>
                 </div>
                 <div className='mySkillsSecondDiv'>
                     <div>

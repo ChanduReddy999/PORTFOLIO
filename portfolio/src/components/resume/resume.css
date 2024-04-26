@@ -1,0 +1,31 @@
+.resumeMain{
+    margin: 0 50px 0 300px;
+}
+.resumeMain1{
+    padding-top: 20px;
+}
+
+.resumeMain1Heading{
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.resumeMain1Para{
+    text-align: justify;
+    padding-bottom: 20px;
+    color: rgb(91, 145, 246);
+}
+/* .resumeMain2{
+    
+} */
+.resumeMain2Heading{
+    color: blue;
+    padding-bottom: 10px;
+}
+.education{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+}

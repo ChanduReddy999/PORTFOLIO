@@ -1,8 +1,9 @@
 .servicesMain{
-    width: 100%;
+    margin: 0 50px 0 300px;
     background-color: rgb(227, 249, 255);
 }
 .servicesH1{
+    padding-top: 20px;
     text-align: center;
 }
 .servicesP{
@@ -14,7 +15,7 @@
     height: 400px;
     background-color: rgb(102, 176, 236);
     margin-top: 20px;
-    margin-left: 450px;
+    margin-left: 250px;
     border-radius: 10px;
 }
 .servicesSubDivImgDiv1{
