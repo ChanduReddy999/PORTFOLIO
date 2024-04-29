@@ -1,6 +1,8 @@
 .servicesMain{
     margin: 0 50px 0 300px;
     background-color: rgb(227, 249, 255);
+    width: 72vw;
+    height: 100vh;
 }
 .servicesH1{
     padding-top: 20px;

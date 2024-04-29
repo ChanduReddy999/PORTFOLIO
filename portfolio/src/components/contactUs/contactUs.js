@@ -21,19 +21,19 @@ const ContactUs = () => {
                     <div className='contactDetails1SubDiv2'>
                         <div className='contactDetails1SubDiv2Location iconsmatter'>
                             <img src={location} alt='location' className='logoDimensions' />
-                            <p><span>Address :</span> KPHB 4th Phase, Hyderabad - 500038</p>
+                            <p><span className='contactDetailsSpan'>Address :</span> KPHB 4th Phase, Hyderabad - 500038</p>
                         </div>
                         <div className='contactDetails1SubDiv2Phone iconsmatter'>
                             <img src={phone} alt='phone' className='logoDimensions' />
-                            <p><span>Phone :</span> +91 93813 17527</p>
+                            <p><span className='contactDetailsSpan'>Phone :</span> +91 93813 17527</p>
                         </div>
                         <div className='contactDetails1SubDiv2Email iconsmatter'>
                             <img src={email} alt='email' className='logoDimensions' />
-                            <p><span>Email :</span> chandureddyvadala1999@gmail.com</p>
+                            <p><span className='contactDetailsSpan'>Email :</span> chandureddyvadala1999@gmail.com</p>
                         </div>
                         <div className='contactDetails1SubDiv2Website iconsmatter'>
                             <img src={website} alt='website' className='logoDimensions' />
-                            <p><span>Website :</span> vcsr.com</p>
+                            <p><span className='contactDetailsSpan'>Website :</span> <a href='https://portfolio-chandureddy.netlify.app/'>Portfolio</a> </p>
                         </div>
                     </div>
                     <div className='contactDetails1SubDiv3'>
@@ -61,26 +61,26 @@ const ContactUs = () => {
                 </div>
                 <div className='contactDetails2'>
                     <div className='contactDetails2SubDiv'>
-                        <h1>CONTACT</h1>
+                        <h1 className='contactDetails2SubDivHeading'>Contact Us</h1>
                     </div>
                     <div className='contactDetails2SubDiv2'>
                         <form>
-                            <div>
-                                <div>
-                                    <label>Full Name</label> <br />
-                                    <input type='text' placeholder='Name' />
+                            <div className='contactData1'>
+                                <div className='contactData1Div1'>
+                                    <label className='contactFullNameLabel'>Full Name</label> <br />
+                                    <input type='text' placeholder='Name' className='contactFullNameInput' />
                                 </div>
-                                <div>
-                                    <label>Email</label> <br />
-                                    <input type='email' placeholder='Email' />
+                                <div className='contactData1Div2'>
+                                    <label className='contactEmailLabel'>Email</label> <br />
+                                    <input type='email' placeholder='Email' className='contactEmailInput' />
                                 </div>
                             </div>
-                            <div>
-                                <label>Subject</label> <br />
-                                <input type='text' placeholder='Subject' /> <br />
-                                <label>Message</label> <br />
-                                <textarea rows={10} cols={40} placeholder='Message'></textarea> <br />
-                                <input type='button' value={'Send Message'} />
+                            <div className='contactData2'>
+                                <label className='contactSubjectLabel'>Subject</label> <br />
+                                <input type='text' placeholder='Subject' className='contactSubjectInput' /> <br />
+                                <label className='contactMessageLabel'>Message</label> <br />
+                                <textarea rows={10} cols={40} placeholder='Message' className='contactMessageTextarea'></textarea> <br />
+                                <input type='button' value={'Send Message'} className='contactSendButton' />
                             </div>
                         </form>
                     </div>

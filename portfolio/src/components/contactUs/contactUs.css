@@ -2,6 +2,7 @@
     margin: 0 50px 0 300px;
     background-color: aliceblue;
     display: flex;
+    height: 100vh;
 }
 
 .contactDetails1{
@@ -34,4 +35,104 @@
     margin: 20px 50px;
     display: flex;
     gap: 40px;
+}
+
+
+.contactDetails2{
+    background-color: aquamarine;
+    margin: 20px 20px 20px 0;
+    border-radius: 20px;
+    width: 450px;
+}
+
+.contactDetails2SubDiv{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contactDetails2SubDivHeading{
+    color: blue;
+}
+
+.contactDetailsSpan{
+    font-weight: 900;
+}
+
+.contactDetails2SubDiv2{
+    margin: 0 20px;
+}
+
+.contactData1{
+    display: flex;
+    gap: 20px;
+}
+
+.contactData1Div1{
+    margin-bottom: 20px;
+}
+.contactFullNameLabel{
+    font-size: 20px;
+    font-weight: 900;
+    color: blue;
+}
+.contactFullNameInput{
+    margin-top: 10px;
+    width: 185px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 0 solid white;
+}
+
+.contactEmailLabel{
+    font-size: 20px;
+    font-weight: 900;
+    color: blue;
+}
+.contactEmailInput{
+    margin-top: 10px;
+    width: 185px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 0 solid white;
+}
+
+.contactSubjectLabel{
+    font-size: 20px;
+    font-weight: 900;
+    color: blue;
+}
+.contactSubjectInput{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 0 solid white;
+}
+
+.contactMessageLabel{
+    font-size: 20px;
+    font-weight: 900;
+    color: blue;
+}
+.contactMessageTextarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 150px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0 solid white;
+}
+
+.contactSendButton{
+    width: 140px;
+    height: 30px;
+    font-size: larger;
+    font-weight: 900;
+    background-color: aqua;
+    border-radius: 10px;
 }

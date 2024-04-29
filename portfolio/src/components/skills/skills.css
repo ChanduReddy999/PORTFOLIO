@@ -1,5 +1,7 @@
 .mySkillsMain{
     margin: 0 50px 0 300px;
+    width: 72vw;
+    height: 100vh;
 }
 .mySkillsFirstDivHeading{
     padding: 20px 0;
@@ -9,19 +11,45 @@
 
 
 .mySkillsSecondDiv{
+    padding-left: 20px;
     display: flex;
-    height: 250px;
+    height: 220px;
+    gap: 50px;
+    background-color: aquamarine;
 }
 .mySkillsThirdDiv{
+    padding-left: 20px;
     display: flex;
-    height: 250px;
+    height: 220px;
+    gap: 50px;
+    background-color: aquamarine;
 }
 
 
 .skillsImg{
-    width: 100px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    animation: skillsAnime 6s linear 2s infinite;
 }
 
 
 
+.skillsAnimationDiv{
+    margin-top: 30px;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+@keyframes skillsAnime {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
