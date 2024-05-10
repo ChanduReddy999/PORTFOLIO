@@ -16,6 +16,9 @@
     height: 220px;
     gap: 50px;
     background-color: aquamarine;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
 }
 .mySkillsThirdDiv{
     padding-left: 20px;
@@ -23,6 +26,9 @@
     height: 220px;
     gap: 50px;
     background-color: aquamarine;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
 }
 
 
@@ -31,7 +37,11 @@
     height: 80px;
     margin-top: 25px;
     margin-left: 25px;
-    animation: skillsAnime 6s linear 2s infinite;
+    animation: skillsAnime 12s linear 2s infinite;
+}
+
+.mySkillsSecondDivH2{
+    text-align: center;
 }
 
 
@@ -49,7 +59,7 @@
     0%{
         transform: rotate(0deg);
     }
-    100%{
+    75%,100%{
         transform: rotate(360deg);
     }
 }

@@ -3,6 +3,8 @@
     background-color: aliceblue;
     display: flex;
     height: 100vh;
+    border-radius: 40px;
+    width: 72vw;
 }
 
 .contactDetails1{

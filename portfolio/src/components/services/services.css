@@ -3,10 +3,12 @@
     background-color: rgb(227, 249, 255);
     width: 72vw;
     height: 100vh;
+    border-radius: 40px;
 }
 .servicesH1{
     padding-top: 20px;
     text-align: center;
+    color: blue;
 }
 .servicesP{
     text-align: center;
@@ -21,18 +23,19 @@
     border-radius: 10px;
 }
 .servicesSubDivImgDiv1{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
-    margin-left: 120px;
+    margin-left: 155px;
     background-color: aliceblue;
     border-radius: 50%;
 }
 .servicesSubDivImg{
-    width: 100px;
-    height: 100px;
-    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: -5px;
 }
 
 .servicesSubDivDiv2{

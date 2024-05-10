@@ -14,42 +14,42 @@ const Resume = () => {
                     <div className='education'>
                         <div className='education14'>
                             <h2>BACHELOR OF TECHNOLOGY</h2>
-                            <div>
-                                <div>
+                            <div className='btechDiv'>
+                                <div className='educationSubDiv'>
                                     <p>2018 - 2022</p>
                                 </div>
-                                <div>
+                                <div className='educationSubDiv'>
                                     <p>CGPA : 6.6</p>
                                 </div>
-                                <p>Computer Science Engineering</p>
-                                <p>Holy Mary Institute of Technology and Science, Keesara</p>
                             </div>
+                            <p className='educationBranch'>Computer Science Engineering</p>
+                            <p className='educationBranch'>Holy Mary Institute of Technology and Science, Keesara</p>
                         </div>
                         <div className='education10'>
-                            <h2>SSC (TS)</h2>
-                            <div>
-                                <div>
+                            <h2>SSC &#40;TS&#41;</h2>
+                            <div className='btechDiv'>
+                                <div className='educationSubDiv'>
                                     <p>2015 - 2016</p>
                                 </div>
-                                <div>
+                                <div className='educationSubDiv'>
                                     <p>CGPA : 9.5</p>
                                 </div>
-                                <p>New Little Roses High School, Palem</p>
                             </div>
+                            <p className='educationBranch'>New Little Roses High School, Palem</p>
                         </div>
                     </div>
                     <div className='education12'>
-                        <h2>BOARD OF INTERMEDIATE EDUCATION (TS)</h2>
-                        <div>
-                            <div>
+                        <h2>BOARD OF INTERMEDIATE EDUCATION &#40;TS&#41;</h2>
+                        <div className='btechDiv'>
+                            <div className='educationSubDiv'>
                                 <p>2016 - 2018</p>
                             </div>
-                            <div>
+                            <div className='educationSubDiv'>
                                 <p>CGPA : 9.2</p>
                             </div>
-                            <p>M.P.C.</p>
-                            <p>C V Raman Junior College, Wanaparthy</p>
                         </div>
+                        <p className='educationBranch'>M.P.C.</p>
+                        <p className='educationBranch'>C V Raman Junior College, Wanaparthy</p>
                     </div>
                 </div>
             </div>

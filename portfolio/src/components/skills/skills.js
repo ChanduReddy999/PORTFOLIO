@@ -24,31 +24,31 @@ const Skills = () => {
                         <div className='skillsAnimationDiv'>
                             <img src={HTML} className='skillsImg' alt='HTML Pic' />
                         </div>
-                        <h2>HTML5</h2>
+                        <h2 className='mySkillsSecondDivH2'>HTML5</h2>
                     </div>
                     <div>
                         <div className='skillsAnimationDiv'>
                             <img src={CSS} className='skillsImg' alt='CSS Pic' />
                         </div>
-                        <h2>CSS3</h2>
+                        <h2 className='mySkillsSecondDivH2'>CSS3</h2>
                     </div>
                     <div>
                         <div className='skillsAnimationDiv'>
                             <img src={JS} className='skillsImg' alt='Javascript Pic' />
                         </div>
-                        <h2>JAVASCRIPT</h2>
+                        <h2 className='mySkillsSecondDivH2'>JAVASCRIPT</h2>
                     </div>
                     <div>
                         <div className='skillsAnimationDiv'>
                             <img src={MySQL} className='skillsImg' alt='MySQL Pic' />
                         </div>
-                        <h2>MYSQL</h2>
+                        <h2 className='mySkillsSecondDivH2'>MYSQL</h2>
                     </div>
                     <div>
                         <div className='skillsAnimationDiv'>
                             <img src={MSSQL} className='skillsImg' alt='MSSQL Pic' />
                         </div>
-                        <h2>MSSQL</h2>
+                        <h2 className='mySkillsSecondDivH2'>MSSQL</h2>
                     </div>
                 </div>
                 <div className='mySkillsThirdDiv'>
@@ -56,31 +56,31 @@ const Skills = () => {
                         <div className='skillsAnimationDiv'>
                             <img src={Python} className='skillsImg' alt='Python Pic' />
                         </div>
-                        <h2>PYTHON</h2>
+                        <h2 className='mySkillsSecondDivH2'>PYTHON</h2>
                     </div>
                     <div>
                         <div className='skillsAnimationDiv'>
                             <img src={NodeJS} className='skillsImg' alt='NodeJS Pic' />
                         </div>
-                        <h2>NODEJS</h2>
+                        <h2 className='mySkillsSecondDivH2'>NODEJS</h2>
                     </div>
                     <div>
                         <div className='skillsAnimationDiv'>
                             <img src={Django} className='skillsImg' alt='Django Pic' />
                         </div>
-                        <h2>DJANGO</h2>
+                        <h2 className='mySkillsSecondDivH2'>DJANGO</h2>
                     </div>
                     <div>
                         <div className='skillsAnimationDiv'>
                             <img src={ReactJS} className='skillsImg' alt='ReactJS Pic' />
                         </div>
-                        <h2>REACTJS</h2>
+                        <h2 className='mySkillsSecondDivH2'>REACTJS</h2>
                     </div>
                     <div>
                         <div className='skillsAnimationDiv'>
                             <img src={ExpressJS} className='skillsImg' alt='ExpressJS Pic' />
                         </div>
-                        <h2>EXPRESSJS</h2>
+                        <h2 className='mySkillsSecondDivH2'>EXPRESSJS</h2>
                     </div>
                 </div>
             </div>

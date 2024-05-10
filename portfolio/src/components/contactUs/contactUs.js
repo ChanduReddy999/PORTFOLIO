@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Axios from 'axios'
 import './contactUs.css'
 import location from '../../Images/locationLogo.png'
 import phone from '../../Images/phoneLogo.png'
@@ -10,6 +11,35 @@ import facebook from '../../Images/facebookLogo.png'
 import instagram from '../../Images/instagramLogo.png'
 
 const ContactUs = () => {
+
+    const url = "http://localhost:2500/dev/v1/connectus"
+    const [data, setData]=useState({
+        FullName:'',
+        Email:'',
+        Subject:'',
+        Message:''
+    })
+
+    function handle(e){
+        const newData={...data}
+        newData[e.target.id] = e.target.value
+        setData(newData)
+        console.log(newData);
+    }
+
+    function submit(e){
+        e.preventDefault();
+        Axios.post(url,{
+            FullName:data.FullName,
+            Email:data.Email,
+            Subject:data.Subject,
+            Message:data.Message
+        })
+        .then(res=>{
+            console.log(res.data);
+        })
+    }
+
     return (
         <>
             <div id='contact' className='contactPage'>
@@ -33,7 +63,7 @@ const ContactUs = () => {
                         </div>
                         <div className='contactDetails1SubDiv2Website iconsmatter'>
                             <img src={website} alt='website' className='logoDimensions' />
-                            <p><span className='contactDetailsSpan'>Website :</span> <a href='https://portfolio-chandureddy.netlify.app/'>Portfolio</a> </p>
+                            <p><span className='contactDetailsSpan'>Website :</span> <a href='https://chandureddy-portfolio.netlify.app/'>Portfolio</a> </p>
                         </div>
                     </div>
                     <div className='contactDetails1SubDiv3'>
@@ -64,23 +94,24 @@ const ContactUs = () => {
                         <h1 className='contactDetails2SubDivHeading'>Contact Us</h1>
                     </div>
                     <div className='contactDetails2SubDiv2'>
-                        <form>
+                        <form onSubmit={(e)=>submit(e)}>
                             <div className='contactData1'>
                                 <div className='contactData1Div1'>
-                                    <label className='contactFullNameLabel'>Full Name</label> <br />
-                                    <input type='text' placeholder='Name' className='contactFullNameInput' />
+                                    <label htmlFor='FullName' className='contactFullNameLabel'>Full Name</label> <br />
+                                    <input type='text' onChange={(e)=>handle(e)} id='FullName' value={data.FullName} placeholder='Name' className='contactFullNameInput' required />
                                 </div>
                                 <div className='contactData1Div2'>
-                                    <label className='contactEmailLabel'>Email</label> <br />
-                                    <input type='email' placeholder='Email' className='contactEmailInput' />
+                                    <label htmlFor='Email' className='contactEmailLabel'>Email</label> <br />
+                                    <input type='email' onChange={(e)=>handle(e)} id='Email' value={data.Email} placeholder='Email' className='contactEmailInput' required />
                                 </div>
                             </div>
                             <div className='contactData2'>
-                                <label className='contactSubjectLabel'>Subject</label> <br />
-                                <input type='text' placeholder='Subject' className='contactSubjectInput' /> <br />
-                                <label className='contactMessageLabel'>Message</label> <br />
-                                <textarea rows={10} cols={40} placeholder='Message' className='contactMessageTextarea'></textarea> <br />
-                                <input type='button' value={'Send Message'} className='contactSendButton' />
+                                <label htmlFor='Subject' className='contactSubjectLabel'>Subject</label> <br />
+                                <input type='text' onChange={(e)=>handle(e)} id='Subject' value={data.Subject} placeholder='Subject' className='contactSubjectInput' required /> <br />
+                                <label htmlFor='Message' className='contactMessageLabel'>Message</label> <br />
+                                <textarea rows={10} cols={40} onChange={(e)=>handle(e)} id='Message' value={data.Message} placeholder='Message' className='contactMessageTextarea' required></textarea> <br />
+                                {/* <input type='button' value={'Send Message'} className='contactSendButton' /> */}
+                                <button className='contactSendButton'>Send Message</button>
                             </div>
                         </form>
                     </div>
