@@ -1,53 +1,224 @@
-.aboutPage{
+/* mobiles */
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .aboutPage {
     margin-left: 300px;
     height: 100vh;
-}
+  }
 
-.aboutTitle{
+  .aboutTitle {
     padding: 20px 0;
     text-align: center;
     color: blue;
-}
-.aboutPageDiv{
+  }
+  .aboutPageDiv {
     display: flex;
-}
+  }
 
-.aboutPicture{
+  .aboutPicture {
     width: 200px;
     height: 200px;
     border-radius: 20%;
-}
+  }
 
-.aboutPersonalInfo{
+  .aboutPersonalInfo {
     display: flex;
     padding-left: 60px;
     gap: 40px;
     list-style: none;
-}
-.aboutPersonalInfoDiv{
+  }
+  .aboutPersonalInfoDiv {
     margin-top: 30px;
-}
+  }
 
-.personalInfoLI{
+  .personalInfoLI {
     padding: 10px;
-}
+  }
 
-.personalInfoHeadings{
+  .personalInfoHeadings {
     font-size: large;
     font-weight: 900;
-}
+  }
 
-.personalInfoAbout{
+  .personalInfoAbout {
     margin-top: 20px;
     width: 900px;
     height: 200px;
     /* background-color: antiquewhite; */
-}
+  }
 
-.personalInfoAboutH2{
+  .personalInfoAboutH2 {
     padding: 20px;
     font-size: 38px;
-}
-.personalInfoAboutP{
+  }
+  .personalInfoAboutP {
     text-align: justify;
+  }
+}
+/* tablets */
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .aboutPage {
+    margin-left: 300px;
+    height: 100vh;
+  }
+
+  .aboutTitle {
+    padding: 20px 0;
+    text-align: center;
+    color: blue;
+  }
+  .aboutPageDiv {
+    display: flex;
+  }
+
+  .aboutPicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+  }
+
+  .aboutPersonalInfo {
+    display: flex;
+    padding-left: 60px;
+    gap: 40px;
+    list-style: none;
+  }
+  .aboutPersonalInfoDiv {
+    margin-top: 30px;
+  }
+
+  .personalInfoLI {
+    padding: 10px;
+  }
+
+  .personalInfoHeadings {
+    font-size: large;
+    font-weight: 900;
+  }
+
+  .personalInfoAbout {
+    margin-top: 20px;
+    width: 900px;
+    height: 200px;
+    /* background-color: antiquewhite; */
+  }
+
+  .personalInfoAboutH2 {
+    padding: 20px;
+    font-size: 38px;
+  }
+  .personalInfoAboutP {
+    text-align: justify;
+  }
+}
+/* laptops */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+  .aboutPage {
+    margin-left: 300px;
+    height: 100vh;
+  }
+
+  .aboutTitle {
+    padding: 20px 0;
+    text-align: center;
+    color: blue;
+  }
+  .aboutPageDiv {
+    display: flex;
+  }
+
+  .aboutPicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+  }
+
+  .aboutPersonalInfo {
+    display: flex;
+    padding-left: 60px;
+    gap: 40px;
+    list-style: none;
+  }
+  .aboutPersonalInfoDiv {
+    margin-top: 30px;
+  }
+
+  .personalInfoLI {
+    padding: 10px;
+  }
+
+  .personalInfoHeadings {
+    font-size: large;
+    font-weight: 900;
+  }
+
+  .personalInfoAbout {
+    margin-top: 20px;
+    width: 900px;
+    height: 200px;
+    /* background-color: antiquewhite; */
+  }
+
+  .personalInfoAboutH2 {
+    padding: 20px;
+    font-size: 38px;
+  }
+  .personalInfoAboutP {
+    text-align: justify;
+  }
+}
+/* desktops */
+@media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
+  .aboutPage {
+    margin-left: 300px;
+    height: 100vh;
+  }
+
+  .aboutTitle {
+    padding: 20px 0;
+    text-align: center;
+    color: blue;
+  }
+  .aboutPageDiv {
+    display: flex;
+  }
+
+  .aboutPicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+  }
+
+  .aboutPersonalInfo {
+    display: flex;
+    padding-left: 60px;
+    gap: 40px;
+    list-style: none;
+  }
+  .aboutPersonalInfoDiv {
+    margin-top: 30px;
+  }
+
+  .personalInfoLI {
+    padding: 10px;
+  }
+
+  .personalInfoHeadings {
+    font-size: large;
+    font-weight: 900;
+  }
+
+  .personalInfoAbout {
+    margin-top: 20px;
+    width: 900px;
+    height: 200px;
+    /* background-color: antiquewhite; */
+  }
+
+  .personalInfoAboutH2 {
+    padding: 20px;
+    font-size: 38px;
+  }
+  .personalInfoAboutP {
+    text-align: justify;
+  }
 }

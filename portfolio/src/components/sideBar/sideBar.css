@@ -1,93 +1,372 @@
-.sideBarMain{
+/* mobiles */
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .sideBarMain {
     width: 250px;
     height: 100vh;
-    background-color:antiquewhite;
+    background-color: antiquewhite;
     position: fixed;
-}
-.sideBarHeader{
+  }
+  .sideBarHeader {
     margin: 10px;
-}
-.sideBarHeaderLogo{
+  }
+  .sideBarHeaderLogo {
     display: flex;
+  }
+  .SideBarMenuIconDiv {
+    /* width: 40px;
+        height: 40px; */
+    /* background-color: white; */
+    /* border-radius: 50%; */
+    margin-left: 225px;
+    margin-top: -30px;
+  }
+  /* .SideBarMenuIcon{
+        margin-top: -10px;
+    } */
+
+  .sideBarDiv {
+    background-color: rgb(227, 223, 192);
+    height: 100vh;
+  }
+
+  .sideBarDivOneUL {
+    list-style: none;
+    margin-left: 20px;
+  }
+
+  .sideBarAnchorIcons {
+    display: flex;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+  }
+
+  /* Images */
+
+  .SideBarCSRIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .SideBarMenuIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .SideBarHomeIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarAboutIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarResumeIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarSkillsIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarServicesIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarContactIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
 }
-.SideBarMenuIconDiv{
+/* tablets */
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .sideBarMain {
+    width: 250px;
+    height: 100vh;
+    background-color: antiquewhite;
+    position: fixed;
+  }
+  .sideBarHeader {
+    margin: 10px;
+  }
+  .sideBarHeaderLogo {
+    display: flex;
+  }
+  .SideBarMenuIconDiv {
+    /* width: 40px;
+        height: 40px; */
+    /* background-color: white; */
+    /* border-radius: 50%; */
+    margin-left: 225px;
+    margin-top: -30px;
+  }
+  /* .SideBarMenuIcon{
+        margin-top: -10px;
+    } */
+
+  .sideBarDiv {
+    background-color: rgb(227, 223, 192);
+    height: 100vh;
+  }
+
+  .sideBarDivOneUL {
+    list-style: none;
+    margin-left: 20px;
+  }
+
+  .sideBarAnchorIcons {
+    display: flex;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+  }
+
+  /* Images */
+
+  .SideBarCSRIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .SideBarMenuIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .SideBarHomeIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarAboutIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarResumeIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarSkillsIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarServicesIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarContactIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+}
+/* laptops */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+  .sideBarMain {
+    width: 250px;
+    height: 100vh;
+    background-color: antiquewhite;
+    position: fixed;
+  }
+  .sideBarHeader {
+    margin: 10px;
+  }
+  .sideBarHeaderLogo {
+    display: flex;
+  }
+  .SideBarMenuIconDiv {
+    /* width: 40px;
+        height: 40px; */
+    /* background-color: white; */
+    /* border-radius: 50%; */
+    margin-left: 225px;
+    margin-top: -30px;
+  }
+  /* .SideBarMenuIcon{
+        margin-top: -10px;
+    } */
+
+  .sideBarDiv {
+    background-color: rgb(227, 223, 192);
+    height: 100vh;
+  }
+
+  .sideBarDivOneUL {
+    list-style: none;
+    margin-left: 20px;
+  }
+
+  .sideBarAnchorIcons {
+    display: flex;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+  }
+
+  /* Images */
+
+  .SideBarCSRIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .SideBarMenuIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .SideBarHomeIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarAboutIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarResumeIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarSkillsIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarServicesIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+  .SideBarContactIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+}
+/* desktops */
+@media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
+  .sideBarMain {
+    width: 250px;
+    height: 100vh;
+    background-color: antiquewhite;
+    position: fixed;
+  }
+  .sideBarHeader {
+    margin: 10px;
+  }
+  .sideBarHeaderLogo {
+    display: flex;
+  }
+  .SideBarMenuIconDiv {
     /* width: 40px;
     height: 40px; */
     /* background-color: white; */
     /* border-radius: 50%; */
     margin-left: 225px;
     margin-top: -30px;
-}
-/* .SideBarMenuIcon{
+  }
+  /* .SideBarMenuIcon{
     margin-top: -10px;
 } */
 
-.sideBarDiv{
+  .sideBarDiv {
     background-color: rgb(227, 223, 192);
     height: 100vh;
-}
+  }
 
-.sideBarDivOneUL{
-    list-style:none;
+  .sideBarDivOneUL {
+    list-style: none;
     margin-left: 20px;
-}
+  }
 
-.sideBarAnchorIcons{
+  .sideBarAnchorIcons {
     display: flex;
     padding: 20px 0px;
     text-decoration: none;
     font-size: larger;
     font-weight: 900;
-}
+  }
 
+  /* Images */
 
-
-
-/* Images */
-
-.SideBarCSRIcon{
+  .SideBarCSRIcon {
     width: 30px;
     height: 30px;
     border-radius: 10px;
-}
-.SideBarMenuIcon{
+  }
+  .SideBarMenuIcon {
     width: 30px;
     height: 30px;
     border-radius: 10px;
-}
-.SideBarHomeIcon{
+  }
+  .SideBarHomeIcon {
     width: 30px;
     height: 30px;
     border-radius: 10px;
     padding-right: 10px;
-}
-.SideBarAboutIcon{
+  }
+  .SideBarAboutIcon {
     width: 30px;
     height: 30px;
     border-radius: 10px;
     padding-right: 10px;
-}
-.SideBarResumeIcon{
+  }
+  .SideBarResumeIcon {
     width: 30px;
     height: 30px;
     border-radius: 10px;
     padding-right: 10px;
-}
-.SideBarSkillsIcon{
+  }
+  .SideBarSkillsIcon {
     width: 30px;
     height: 30px;
     border-radius: 10px;
     padding-right: 10px;
-}
-.SideBarServicesIcon{
+  }
+  .SideBarServicesIcon {
     width: 30px;
     height: 30px;
     border-radius: 10px;
     padding-right: 10px;
-}
-.SideBarContactIcon{
+  }
+  .SideBarContactIcon {
     width: 30px;
     height: 30px;
     border-radius: 10px;
     padding-right: 10px;
+  }
 }

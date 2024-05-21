@@ -12,7 +12,7 @@ import instagram from '../../Images/instagramLogo.png'
 
 const ContactUs = () => {
 
-    const url = "http://localhost:2500/dev/v1/connectus"
+    const url = "https://firebase-uiab.onrender.com/prod/v1/contactus"
     const [data, setData]=useState({
         FullName:'',
         Email:'',

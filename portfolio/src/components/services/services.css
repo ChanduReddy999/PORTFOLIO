@@ -1,28 +1,30 @@
-.servicesMain{
+/* mobiles */
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .servicesMain {
     margin: 0 50px 0 300px;
     background-color: rgb(227, 249, 255);
     width: 72vw;
     height: 100vh;
     border-radius: 40px;
-}
-.servicesH1{
+  }
+  .servicesH1 {
     padding-top: 20px;
     text-align: center;
     color: blue;
-}
-.servicesP{
+  }
+  .servicesP {
     text-align: center;
-}
+  }
 
-.servicesSubDiv{
+  .servicesSubDiv {
     width: 400px;
     height: 400px;
     background-color: rgb(102, 176, 236);
     margin-top: 20px;
     margin-left: 250px;
     border-radius: 10px;
-}
-.servicesSubDivImgDiv1{
+  }
+  .servicesSubDivImgDiv1 {
     width: 100px;
     height: 100px;
     display: flex;
@@ -30,21 +32,177 @@
     margin-left: 155px;
     background-color: aliceblue;
     border-radius: 50%;
-}
-.servicesSubDivImg{
+  }
+  .servicesSubDivImg {
     width: 70px;
     height: 70px;
     margin-left: 15px;
     margin-top: -5px;
-}
+  }
 
-.servicesSubDivDiv2{
-
-}
-.servicesSubDivDiv2H2{
+  .servicesSubDivDiv2 {
+  }
+  .servicesSubDivDiv2H2 {
     text-align: center;
-}
-.servicesSubDivDiv2P{
-    text-align:justify;
+  }
+  .servicesSubDivDiv2P {
+    text-align: justify;
     padding: 10px;
+  }
+}
+/* tablets */
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .servicesMain {
+    margin: 0 50px 0 300px;
+    background-color: rgb(227, 249, 255);
+    width: 72vw;
+    height: 100vh;
+    border-radius: 40px;
+  }
+  .servicesH1 {
+    padding-top: 20px;
+    text-align: center;
+    color: blue;
+  }
+  .servicesP {
+    text-align: center;
+  }
+
+  .servicesSubDiv {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(102, 176, 236);
+    margin-top: 20px;
+    margin-left: 250px;
+    border-radius: 10px;
+  }
+  .servicesSubDivImgDiv1 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 155px;
+    background-color: aliceblue;
+    border-radius: 50%;
+  }
+  .servicesSubDivImg {
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: -5px;
+  }
+
+  .servicesSubDivDiv2 {
+  }
+  .servicesSubDivDiv2H2 {
+    text-align: center;
+  }
+  .servicesSubDivDiv2P {
+    text-align: justify;
+    padding: 10px;
+  }
+}
+/* laptops */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+  .servicesMain {
+    margin: 0 50px 0 300px;
+    background-color: rgb(227, 249, 255);
+    width: 72vw;
+    height: 100vh;
+    border-radius: 40px;
+  }
+  .servicesH1 {
+    padding-top: 20px;
+    text-align: center;
+    color: blue;
+  }
+  .servicesP {
+    text-align: center;
+  }
+
+  .servicesSubDiv {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(102, 176, 236);
+    margin-top: 20px;
+    margin-left: 250px;
+    border-radius: 10px;
+  }
+  .servicesSubDivImgDiv1 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 155px;
+    background-color: aliceblue;
+    border-radius: 50%;
+  }
+  .servicesSubDivImg {
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: -5px;
+  }
+
+  .servicesSubDivDiv2 {
+  }
+  .servicesSubDivDiv2H2 {
+    text-align: center;
+  }
+  .servicesSubDivDiv2P {
+    text-align: justify;
+    padding: 10px;
+  }
+}
+/* desktops */
+@media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
+  .servicesMain {
+    margin: 0 50px 0 300px;
+    background-color: rgb(227, 249, 255);
+    width: 72vw;
+    height: 100vh;
+    border-radius: 40px;
+  }
+  .servicesH1 {
+    padding-top: 20px;
+    text-align: center;
+    color: blue;
+  }
+  .servicesP {
+    text-align: center;
+  }
+
+  .servicesSubDiv {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(102, 176, 236);
+    margin-top: 20px;
+    margin-left: 250px;
+    border-radius: 10px;
+  }
+  .servicesSubDivImgDiv1 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 155px;
+    background-color: aliceblue;
+    border-radius: 50%;
+  }
+  .servicesSubDivImg {
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: -5px;
+  }
+
+  .servicesSubDivDiv2 {
+  }
+  .servicesSubDivDiv2H2 {
+    text-align: center;
+  }
+  .servicesSubDivDiv2P {
+    text-align: justify;
+    padding: 10px;
+  }
 }

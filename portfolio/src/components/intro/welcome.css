@@ -1,21 +1,96 @@
-*{
+/* mobiles */
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  * {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-}
+    font-family: "Times New Roman", Times, serif;
+  }
 
-.welcome{
+  .welcome {
     height: 100vh;
     background-size: cover;
-    background-image: url('../../Images/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.webp');
+    background-image: url("../../Images/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.webp");
     background-repeat: no-repeat;
-}
-.chandu{
+  }
+  .chandu {
     color: aqua;
     padding-top: 200px;
     padding-left: 350px;
     font-size: 40px;
-}
-.developer{
+  }
+  .developer {
     padding-left: 350px;
+  }
+}
+/* tablets */
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .welcome {
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../../Images/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.webp");
+    background-repeat: no-repeat;
+  }
+  .chandu {
+    color: aqua;
+    padding-top: 200px;
+    padding-left: 350px;
+    font-size: 40px;
+  }
+  .developer {
+    padding-left: 350px;
+  }
+}
+/* laptops */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .welcome {
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../../Images/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.webp");
+    background-repeat: no-repeat;
+  }
+  .chandu {
+    color: aqua;
+    padding-top: 200px;
+    padding-left: 350px;
+    font-size: 40px;
+  }
+  .developer {
+    padding-left: 350px;
+  }
+}
+/* desktops */
+@media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .welcome {
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../../Images/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.webp");
+    background-repeat: no-repeat;
+  }
+  .chandu {
+    color: aqua;
+    padding-top: 200px;
+    padding-left: 350px;
+    font-size: 40px;
+  }
+  .developer {
+    padding-left: 350px;
+  }
 }

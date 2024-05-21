@@ -1,16 +1,16 @@
-.mySkillsMain{
+/* mobiles */
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .mySkillsMain {
     margin: 0 50px 0 300px;
     width: 72vw;
     height: 100vh;
-}
-.mySkillsFirstDivHeading{
+  }
+  .mySkillsFirstDivHeading {
     padding: 20px 0;
     text-align: center;
     color: blue;
-}
-
-
-.mySkillsSecondDiv{
+  }
+  .mySkillsSecondDiv {
     padding-left: 20px;
     display: flex;
     height: 220px;
@@ -19,8 +19,8 @@
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
-}
-.mySkillsThirdDiv{
+  }
+  .mySkillsThirdDiv {
     padding-left: 20px;
     display: flex;
     height: 220px;
@@ -29,37 +29,221 @@
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
-}
-
-
-.skillsImg{
+  }
+  .skillsImg {
     width: 80px;
     height: 80px;
     margin-top: 25px;
     margin-left: 25px;
     animation: skillsAnime 12s linear 2s infinite;
-}
-
-.mySkillsSecondDivH2{
+  }
+  .mySkillsSecondDivH2 {
     text-align: center;
-}
-
-
-
-.skillsAnimationDiv{
+  }
+  .skillsAnimationDiv {
     margin-top: 30px;
     width: 130px;
     height: 130px;
     margin-bottom: 10px;
     background-color: white;
     border-radius: 50%;
+  }
+
+  @keyframes skillsAnime {
+    0% {
+      transform: rotate(0deg);
+    }
+    75%,
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+/* tablets */
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .mySkillsMain {
+    margin: 0 50px 0 300px;
+    width: 72vw;
+    height: 100vh;
+  }
+  .mySkillsFirstDivHeading {
+    padding: 20px 0;
+    text-align: center;
+    color: blue;
+  }
+  .mySkillsSecondDiv {
+    padding-left: 20px;
+    display: flex;
+    height: 220px;
+    gap: 50px;
+    background-color: aquamarine;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
+  }
+  .mySkillsThirdDiv {
+    padding-left: 20px;
+    display: flex;
+    height: 220px;
+    gap: 50px;
+    background-color: aquamarine;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
+  }
+  .skillsImg {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    animation: skillsAnime 12s linear 2s infinite;
+  }
+  .mySkillsSecondDivH2 {
+    text-align: center;
+  }
+  .skillsAnimationDiv {
+    margin-top: 30px;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  @keyframes skillsAnime {
+    0% {
+      transform: rotate(0deg);
+    }
+    75%,
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+/* laptops */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+  .mySkillsMain {
+    margin: 0 50px 0 300px;
+    width: 72vw;
+    height: 100vh;
+  }
+  .mySkillsFirstDivHeading {
+    padding: 20px 0;
+    text-align: center;
+    color: blue;
+  }
+
+  .mySkillsSecondDiv {
+    padding-left: 20px;
+    display: flex;
+    height: 220px;
+    gap: 50px;
+    background-color: aquamarine;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
+  }
+  .mySkillsThirdDiv {
+    padding-left: 20px;
+    display: flex;
+    height: 220px;
+    gap: 50px;
+    background-color: aquamarine;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
+  }
+
+  .skillsImg {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    animation: skillsAnime 12s linear 2s infinite;
+  }
+
+  .mySkillsSecondDivH2 {
+    text-align: center;
+  }
+
+  .skillsAnimationDiv {
+    margin-top: 30px;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  @keyframes skillsAnime {
+    0% {
+      transform: rotate(0deg);
+    }
+    75%,
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 }
 
-@keyframes skillsAnime {
-    0%{
-        transform: rotate(0deg);
+/* desktops */
+@media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
+  .mySkillsMain {
+    margin: 0 50px 0 300px;
+    width: 72vw;
+    height: 100vh;
+  }
+  .mySkillsFirstDivHeading {
+    padding: 20px 0;
+    text-align: center;
+    color: blue;
+  }
+  .mySkillsSecondDiv {
+    padding-left: 20px;
+    display: flex;
+    height: 220px;
+    gap: 50px;
+    background-color: aquamarine;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
+  }
+  .mySkillsThirdDiv {
+    padding-left: 20px;
+    display: flex;
+    height: 220px;
+    gap: 50px;
+    background-color: aquamarine;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
+  }
+  .skillsImg {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 25px;
+    animation: skillsAnime 12s linear 2s infinite;
+  }
+  .mySkillsSecondDivH2 {
+    text-align: center;
+  }
+  .skillsAnimationDiv {
+    margin-top: 30px;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  @keyframes skillsAnime {
+    0% {
+      transform: rotate(0deg);
     }
-    75%,100%{
-        transform: rotate(360deg);
+    75%,
+    100% {
+      transform: rotate(360deg);
     }
+  }
 }
