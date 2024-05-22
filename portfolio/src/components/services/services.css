@@ -1,10 +1,10 @@
 /* mobiles */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .servicesMain {
-    margin: 0 50px 0 300px;
+    margin: 50px 50px 0 150px;
     background-color: rgb(227, 249, 255);
-    width: 72vw;
-    height: 100vh;
+    width: 900px;
+    height: 560px;
     border-radius: 40px;
   }
   .servicesH1 {
@@ -40,8 +40,6 @@
     margin-top: -5px;
   }
 
-  .servicesSubDivDiv2 {
-  }
   .servicesSubDivDiv2H2 {
     text-align: center;
   }
@@ -50,7 +48,8 @@
     padding: 10px;
   }
 }
-/* tablets */
+
+/* laptops */
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
   .servicesMain {
     margin: 0 50px 0 300px;
@@ -92,8 +91,6 @@
     margin-top: -5px;
   }
 
-  .servicesSubDivDiv2 {
-  }
   .servicesSubDivDiv2H2 {
     text-align: center;
   }
@@ -102,7 +99,8 @@
     padding: 10px;
   }
 }
-/* laptops */
+
+/* desktops */
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
   .servicesMain {
     margin: 0 50px 0 300px;
@@ -143,9 +141,6 @@
     margin-left: 15px;
     margin-top: -5px;
   }
-
-  .servicesSubDivDiv2 {
-  }
   .servicesSubDivDiv2H2 {
     text-align: center;
   }
@@ -154,7 +149,8 @@
     padding: 10px;
   }
 }
-/* desktops */
+
+/* big screens */
 @media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
   .servicesMain {
     margin: 0 50px 0 300px;
@@ -194,9 +190,6 @@
     height: 70px;
     margin-left: 15px;
     margin-top: -5px;
-  }
-
-  .servicesSubDivDiv2 {
   }
   .servicesSubDivDiv2H2 {
     text-align: center;

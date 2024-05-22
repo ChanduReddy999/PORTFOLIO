@@ -1,10 +1,9 @@
 /* mobiles */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .footerDiv {
-    /* width: 100%; */
+    width: 1200px;
     height: 55px;
     background-color: rgb(154, 214, 216);
-    padding-left: 200px;
     text-align: center;
     font-weight: bolder;
   }
@@ -21,7 +20,8 @@
     color: rgb(55, 162, 237);
   }
 }
-/* tablets */
+
+/* laptops */
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
   .footerDiv {
     /* width: 100%; */
@@ -44,7 +44,8 @@
     color: rgb(55, 162, 237);
   }
 }
-/* laptops */
+
+/* desktops */
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
   .footerDiv {
     /* width: 100%; */
@@ -67,7 +68,8 @@
     color: rgb(55, 162, 237);
   }
 }
-/* desktops */
+
+/* big screens */
 @media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
   .footerDiv {
     /* width: 100%; */

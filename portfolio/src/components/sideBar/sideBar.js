@@ -16,7 +16,7 @@ const SideBar = () => {
                 <header className='sideBarHeader'>
                     <div className='sideBarHeaderLogo'>
                         <img src={CSR} className='SideBarCSRIcon' alt='CSR icon' />
-                        <div>
+                        <div className='sideBarHeaderName'>
                             <p>Chandra Shekar Reddy Vadala</p>
                             <p>Web Developer</p>
                         </div>

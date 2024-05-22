@@ -1,12 +1,14 @@
 /* mobiles */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .mySkillsMain {
-    margin: 0 50px 0 300px;
-    width: 72vw;
-    height: 100vh;
+    margin: 50px 50px 0 150px;
+    width: 900px;
+    height: 600px;
+    background-color: aquamarine;
+    border-radius: 40px;
   }
   .mySkillsFirstDivHeading {
-    padding: 20px 0;
+    padding: 50px 0 0 0;
     text-align: center;
     color: blue;
   }
@@ -59,7 +61,8 @@
     }
   }
 }
-/* tablets */
+
+/* laptops */
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
   .mySkillsMain {
     margin: 0 50px 0 300px;
@@ -120,7 +123,8 @@
     }
   }
 }
-/* laptops */
+
+/* desktops */
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
   .mySkillsMain {
     margin: 0 50px 0 300px;
@@ -186,7 +190,7 @@
   }
 }
 
-/* desktops */
+/* big screens */
 @media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
   .mySkillsMain {
     margin: 0 50px 0 300px;

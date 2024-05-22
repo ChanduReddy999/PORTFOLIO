@@ -1,14 +1,15 @@
 /* mobiles */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .resumeMain {
-    margin: 0 50px 0 300px;
-    width: 70vw;
-    height: 100vh;
+    margin: 0px 50px 0 150px;
+    width: 900px;
+    height: 560px;
     background-color: rgb(195, 252, 233);
     border-radius: 40px;
   }
   .resumeMain1 {
-    padding-top: 20px;
+    margin-top: 50px;
+    /* padding-top: 30px; */
   }
 
   .resumeMain1Heading {
@@ -16,6 +17,7 @@
     font-size: 40px;
     text-align: center;
     padding-bottom: 10px;
+    padding-top: 50px;
   }
 
   .resumeMain1Para {
@@ -60,7 +62,8 @@
     color: rgb(0, 204, 255);
   }
 }
-/* tablets */
+
+/* laptops */
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
   .resumeMain {
     margin: 0 50px 0 300px;
@@ -122,11 +125,12 @@
     color: rgb(0, 204, 255);
   }
 }
-/* laptops */
+
+/* desktops */
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
   .resumeMain {
-    margin: 0 50px 0 300px;
-    width: 70vw;
+    margin: 30px 50px 0 300px;
+    width: 72vw;
     height: 100vh;
     background-color: rgb(195, 252, 233);
     border-radius: 40px;
@@ -184,7 +188,8 @@
     color: rgb(0, 204, 255);
   }
 }
-/* desktops */
+
+/* big screens */
 @media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
   .resumeMain {
     margin: 0 50px 0 300px;

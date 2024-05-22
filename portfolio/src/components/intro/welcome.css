@@ -7,7 +7,9 @@
   }
 
   .welcome {
-    height: 100vh;
+    /* height: 500px; */
+    height: 400px;
+    width: 1200px;
     background-size: cover;
     background-image: url("../../Images/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.webp");
     background-repeat: no-repeat;
@@ -22,7 +24,8 @@
     padding-left: 350px;
   }
 }
-/* tablets */
+
+/* laptops */
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
   * {
     margin: 0;
@@ -46,7 +49,8 @@
     padding-left: 350px;
   }
 }
-/* laptops */
+
+/* desktops */
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
   * {
     margin: 0;
@@ -70,7 +74,8 @@
     padding-left: 350px;
   }
 }
-/* desktops */
+
+/* big screens */
 @media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
   * {
     margin: 0;
