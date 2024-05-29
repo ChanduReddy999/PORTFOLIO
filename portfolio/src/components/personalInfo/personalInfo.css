@@ -59,6 +59,24 @@
     padding: 0 30px;
     text-align: justify;
   }
+  .mobileNumber{
+    text-decoration: none;
+    color: black;
+  }
+  .mobileNumber:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  .EmailID{
+    text-decoration: none;
+    color: black;
+  }
+  .EmailID:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: 600;
+  }
 }
 
 /* laptops */
@@ -115,6 +133,24 @@
   }
   .personalInfoAboutP {
     text-align: justify;
+  }
+  .mobileNumber{
+    text-decoration: none;
+    color: black;
+  }
+  .mobileNumber:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  .EmailID{
+    text-decoration: none;
+    color: black;
+  }
+  .EmailID:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: 600;
   }
 }
 
@@ -178,6 +214,24 @@
     padding: 0 20px;
     text-align: justify;
   }
+  .mobileNumber{
+    text-decoration: none;
+    color: black;
+  }
+  .mobileNumber:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  .EmailID{
+    text-decoration: none;
+    color: black;
+  }
+  .EmailID:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: 600;
+  }
 }
 
 /* big screens */
@@ -234,5 +288,23 @@
   }
   .personalInfoAboutP {
     text-align: justify;
+  }
+  .mobileNumber{
+    text-decoration: none;
+    color: black;
+  }
+  .mobileNumber:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  .EmailID{
+    text-decoration: none;
+    color: black;
+  }
+  .EmailID:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: 600;
   }
 }

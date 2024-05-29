@@ -17,13 +17,13 @@ const PersonalInfo = () => {
                         <ul className='aboutPersonalInfo'>
                             <div className='aboutPersonalInfoDiv'>
                                 <li className='personalInfoLI'><span className='personalInfoHeadings'>BirthDay : </span>29 July 1999</li>
-                                <li className='personalInfoLI'><span className='personalInfoHeadings'>Phone : </span>+91 93813 17527</li>
+                                <li className='personalInfoLI'><span className='personalInfoHeadings'>Phone : </span><a href='tel:+919381317527' className='mobileNumber'>+91 93813 17527</a></li>
                                 <li className='personalInfoLI'><span className='personalInfoHeadings'>City : </span>KPHB 4th Phase, Hyderabad</li>
                             </div>
                             <div className='aboutPersonalInfoDiv'>
                                 <li className='personalInfoLI'><span className='personalInfoHeadings'>Age : </span>24</li>
                                 <li className='personalInfoLI'><span className='personalInfoHeadings'>Degree : </span>Bachelor of Technology</li>
-                                <li className='personalInfoLI'><span className='personalInfoHeadings'>Email : </span>chandureddyvadala1999@gmail.com</li>
+                                <li className='personalInfoLI'><span className='personalInfoHeadings'>Email : </span><a href='mailto:chandureddyvadala1999@gmail.com' className='EmailID'>chandureddyvadala1999@gmail.com</a></li>
                             </div>
                         </ul>
                     </div>
