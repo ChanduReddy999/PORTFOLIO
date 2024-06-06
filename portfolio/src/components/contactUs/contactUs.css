@@ -157,12 +157,12 @@
 /* laptops */
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
   .contactPage {
-    margin: 0 50px 0 300px;
+    margin: 0 50px 0 280px;
     background-color: aliceblue;
     display: flex;
     height: 100vh;
     border-radius: 40px;
-    width: 72vw;
+    width: 90vw;
   }
 
   .contactDetails1 {

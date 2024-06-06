@@ -15,19 +15,40 @@
   }
   .footerP2Span {
     color: rgb(172, 111, 20);
+    animation: footerAnimation infinite ease-in-out 6s;
   }
   .footerP2Span:hover {
     color: rgb(55, 162, 237);
+  }
+  @keyframes footerAnimation {
+    0%{
+      color: aqua;
+    }
+    20%{
+      color: red;
+    }
+    40%{
+      color: blue;
+    }
+    60%{
+      color: blueviolet;
+    }
+    80%{
+      color: greenyellow;
+    }
+    100%{
+      color: yellow;
+    }
   }
 }
 
 /* laptops */
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
   .footerDiv {
-    /* width: 100%; */
+    width: 100%;
     height: 55px;
     background-color: rgb(154, 214, 216);
-    padding-left: 200px;
+    padding-left: 220px;
     text-align: center;
     font-weight: bolder;
   }
@@ -39,9 +60,30 @@
   }
   .footerP2Span {
     color: rgb(172, 111, 20);
+    animation: footerAnimation infinite ease-in-out 6s;
   }
   .footerP2Span:hover {
     color: rgb(55, 162, 237);
+  }
+  @keyframes footerAnimation {
+    0%{
+      color: aqua;
+    }
+    20%{
+      color: red;
+    }
+    40%{
+      color: blue;
+    }
+    60%{
+      color: blueviolet;
+    }
+    80%{
+      color: greenyellow;
+    }
+    100%{
+      color: yellow;
+    }
   }
 }
 
@@ -63,9 +105,30 @@
   }
   .footerP2Span {
     color: rgb(172, 111, 20);
+    animation: footerAnimation infinite ease-in-out 6s;
   }
   .footerP2Span:hover {
     color: rgb(55, 162, 237);
+  }
+  @keyframes footerAnimation {
+    0%{
+      color: aqua;
+    }
+    20%{
+      color: red;
+    }
+    40%{
+      color: blue;
+    }
+    60%{
+      color: blueviolet;
+    }
+    80%{
+      color: greenyellow;
+    }
+    100%{
+      color: yellow;
+    }
   }
 }
 
@@ -87,8 +150,29 @@
   }
   .footerP2Span {
     color: rgb(172, 111, 20);
+    animation: footerAnimation infinite ease-in-out 6s;
   }
   .footerP2Span:hover {
     color: rgb(55, 162, 237);
+  }
+  @keyframes footerAnimation {
+    0%{
+      color: aqua;
+    }
+    20%{
+      color: red;
+    }
+    40%{
+      color: blue;
+    }
+    60%{
+      color: blueviolet;
+    }
+    80%{
+      color: greenyellow;
+    }
+    100%{
+      color: yellow;
+    }
   }
 }
