@@ -3,7 +3,7 @@
   .sideBarMain {
     width: 1200px;
     height: 12vh;
-    background-color: antiquewhite;
+    background-color: white;
     position: fixed;
     display: flex;
   }
@@ -14,16 +14,24 @@
   .sideBarHeaderLogo {
     display: flex;
   }
-  .sideBarHeaderName{
+  .sideBarHeaderName {
     padding-left: 10px;
   }
+  .sidebarMyName {
+    color: darkorchid;
+    font-weight: 600;
+  }
+  .sidebarMyRole {
+    color: darkgoldenrod;
+    font-weight: 600;
+    font-style: oblique;
+  }
   .SideBarMenuIconDiv {
-    margin-left: 225px;
-    margin-top: -30px;
+    display: none;
   }
 
   .sideBarDiv {
-    background-color: rgb(227, 223, 192);
+    background-color: white;
     height: 12vh;
     width: 880px;
   }
@@ -32,15 +40,22 @@
     list-style: none;
     margin-left: 20px;
     display: flex;
-    gap: 30px;
   }
 
   .sideBarAnchorIcons {
     display: flex;
-    padding: 20px 0px;
     text-decoration: none;
     font-size: larger;
     font-weight: 900;
+    height: 12vh;
+  }
+  .sideBarAnchorIcons:hover{
+    background-color: rgb(183, 116, 245);
+    color: white;
+    border-radius: 20px;
+  }
+  .sideBarIconName{
+    padding: 20px 15px 0 0;
   }
 
   /* Images */
@@ -49,187 +64,163 @@
     width: 30px;
     height: 30px;
     border-radius: 10px;
+    margin-top: 3px;
   }
-  .SideBarMenuIcon {
+  .SideBarIcon {
     width: 30px;
     height: 30px;
-    border-radius: 10px;
-    display: none;
-  }
-  .SideBarHomeIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarAboutIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarResumeIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarSkillsIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarServicesIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarContactIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
+    margin: 15px;
   }
 }
 
 /* laptops */
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
   .sideBarMain {
-    width: 250px;
+    width: 210px;
     height: 100%;
-    background-color: antiquewhite;
+    background-color: white;
     position: fixed;
   }
   .sideBarHeader {
-    margin: 10px;
+    margin: 20px 10px 10px 10px;
   }
   .sideBarHeaderLogo {
     display: flex;
   }
+  .sideBarHeaderName {
+    margin-left: 5px;
+  }
+  .sidebarMyName {
+    color: darkorchid;
+    font-weight: 600;
+  }
+  .sidebarMyRole {
+    color: darkgoldenrod;
+    font-weight: 600;
+    font-style: oblique;
+  }
   .SideBarMenuIconDiv {
-    /* width: 40px;
-        height: 40px; */
-    /* background-color: white; */
-    /* border-radius: 50%; */
-    margin-left: 225px;
+    width: 25px;
+    height: 23px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 188px;
     margin-top: -30px;
   }
-  /* .SideBarMenuIcon{
-        margin-top: -10px;
-    } */
+  .SideBarMenuIcon {
+    color: white;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-left: 7px;
+  }
 
   .sideBarDiv {
-    background-color: rgb(227, 223, 192);
-    height: 100%;
+    background-color: white;
+    height: 90%;
+    padding-top: 16px;
   }
 
   .sideBarDivOneUL {
     list-style: none;
-    margin-left: 20px;
   }
 
   .sideBarAnchorIcons {
     display: flex;
-    padding: 20px 0px;
+    padding: 10px 0px;
     text-decoration: none;
     font-size: larger;
     font-weight: 900;
   }
-
+  .sideBarAnchorIcons:hover{
+    background-color: rgb(183, 116, 245);
+    color: white;
+    border-radius: 20px;
+  }
+  .sideBarIconName{
+    padding: 15px 0;
+  }
   /* Images */
 
   .SideBarCSRIcon {
     width: 30px;
     height: 30px;
     border-radius: 10px;
+    margin-top: 3px;
   }
-  .SideBarMenuIcon {
+  .SideBarIcon {
     width: 30px;
     height: 30px;
-    border-radius: 10px;
-  }
-  .SideBarHomeIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarAboutIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarResumeIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarSkillsIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarServicesIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarContactIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
+    /* border-radius: 10px; */
+    padding: 10px 15px;
   }
 }
 
 /* desktops */
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
   .sideBarMain {
-    width: 250px;
+    width: 210px;
     height: 100vh;
-    background-color: antiquewhite;
+    background-color: white;
     position: fixed;
   }
   .sideBarHeader {
     margin: 10px;
+    display: flex;
+    width: 220px;
   }
   .sideBarHeaderLogo {
     display: flex;
   }
-  .SideBarMenuIconDiv {
-    /* width: 40px;
-        height: 40px; */
-    /* background-color: white; */
-    /* border-radius: 50%; */
-    margin-left: 225px;
-    margin-top: -30px;
+  .sideBarHeaderName {
+    margin-left: 5px;
   }
-  /* .SideBarMenuIcon{
-        margin-top: -10px;
-    } */
+  .sidebarMyName {
+    color: darkorchid;
+    font-weight: 600;
+  }
+  .sidebarMyRole {
+    color: darkgoldenrod;
+    font-weight: 600;
+    font-style: oblique;
+  }
+  .SideBarMenuIconDiv {
+    width: 25px;
+    height: 23px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: -3px;
+  }
+  .SideBarMenuIcon {
+    color: white;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-left: 7px;
+  }
 
   .sideBarDiv {
-    background-color: rgb(227, 223, 192);
-    height: 100vh;
+    height: 90vh;
   }
 
   .sideBarDivOneUL {
     list-style: none;
-    margin-left: 20px;
   }
 
   .sideBarAnchorIcons {
     display: flex;
-    padding: 20px 0px;
+    padding: 20px 20px;
     text-decoration: none;
     font-size: larger;
     font-weight: 900;
+  }
+  .sideBarAnchorIcons:hover{
+    background-color: rgb(183, 116, 245);
+    color: white;
+    border-radius: 20px;
+  }
+  .sideBarIconName{
+    padding-left: 5px;
+    padding-top: 5px;
   }
 
   /* Images */
@@ -238,46 +229,12 @@
     width: 30px;
     height: 30px;
     border-radius: 10px;
+    margin-top: 3px;
   }
-  .SideBarMenuIcon {
+  .SideBarIcon {
     width: 30px;
     height: 30px;
-    border-radius: 10px;
-  }
-  .SideBarHomeIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarAboutIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarResumeIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarSkillsIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarServicesIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarContactIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding-right: 10px;
   }
 }
@@ -285,93 +242,84 @@
 /* big screens */
 @media screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
   .sideBarMain {
-    width: 250px;
+    width: 440px;
     height: 100vh;
-    background-color: antiquewhite;
+    background-color: white;
     position: fixed;
   }
   .sideBarHeader {
     margin: 10px;
+    display: flex;
+    width: 450px;
   }
   .sideBarHeaderLogo {
     display: flex;
+    margin: 10px;
+  }
+  .sideBarHeaderName {
+    margin-left: 5px;
+  }
+  .sidebarMyName {
+    color: darkorchid;
+    font-weight: 600;
+    font-size: 32px;
+  }
+  .sidebarMyRole {
+    color: darkgoldenrod;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: oblique;
   }
   .SideBarMenuIconDiv {
-    /* width: 40px;
-    height: 40px; */
-    /* background-color: white; */
-    /* border-radius: 50%; */
-    margin-left: 225px;
-    margin-top: -30px;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 5px;
   }
-  /* .SideBarMenuIcon{
-    margin-top: -10px;
-} */
+  .SideBarMenuIcon{
+    color: white;
+    font-size: 25px;
+    padding-top: 6px;
+    padding-left: 7px;
+}
 
   .sideBarDiv {
-    background-color: rgb(227, 223, 192);
-    height: 100vh;
+    height: 90vh;
   }
 
   .sideBarDivOneUL {
     list-style: none;
-    margin-left: 20px;
   }
 
   .sideBarAnchorIcons {
     display: flex;
-    padding: 20px 0px;
+    padding: 30px 40px;
     text-decoration: none;
     font-size: larger;
     font-weight: 900;
   }
-
+  .sideBarAnchorIcons:hover{
+    background-color: rgb(183, 116, 245);
+    color: white;
+    border-radius: 20px;
+  }
+  .sideBarIconName{
+    font-size: 40px;
+    padding: 15px;
+  }
   /* Images */
 
   .SideBarCSRIcon {
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
     border-radius: 10px;
   }
-  .SideBarMenuIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-  }
-  .SideBarHomeIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarAboutIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarResumeIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarSkillsIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarServicesIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 10px;
-  }
-  .SideBarContactIcon {
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
+  .SideBarIcon {
+    width: 70px;
+    height: 70px;
+    /* border-radius: 10px; */
     padding-right: 10px;
   }
 }

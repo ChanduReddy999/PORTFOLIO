@@ -1,8 +1,10 @@
 import React from 'react'
 import './sideBar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLessThan } from '@fortawesome/free-solid-svg-icons';
+import { faHouseUser } from '@fortawesome/free-solid-svg-icons';
 import CSR from '../../Images/csr_icon.jpg'
-import Menu from '../../Images/menuIcon.jpeg'
-import Home from '../../Images/homeIcon.png'
+// import Home from '../../Images/homeIcon.png'
 import About from '../../Images/aboutIcon.png'
 import Resume from '../../Images/resumeIcon.png'
 import Skills from '../../Images/skillsIcon.png'
@@ -17,12 +19,12 @@ const SideBar = () => {
                     <div className='sideBarHeaderLogo'>
                         <img src={CSR} className='SideBarCSRIcon' alt='CSR icon' />
                         <div className='sideBarHeaderName'>
-                            <p>Chandra Shekar Reddy Vadala</p>
-                            <p>Web Developer</p>
+                            <p className='sidebarMyName'>Chandu Reddy Vadala</p>
+                            <p className='sidebarMyRole'>Web Developer</p>
                         </div>
                     </div>
                     <div className='SideBarMenuIconDiv'>
-                        <img src={Menu} className='SideBarMenuIcon' alt='> icon' />
+                        <FontAwesomeIcon className='SideBarMenuIcon' icon={faLessThan} />
                     </div>
                 </header>
                 <div className='sideBarDiv'>
@@ -30,38 +32,39 @@ const SideBar = () => {
                         <ul className='sideBarDivOneUL'>
                             <li className='sideBarDivOneLI'>
                                 <a href='#dashBoard' className='sideBarAnchorIcons'>
-                                    <img src={Home} className='SideBarHomeIcon' alt='Home' />
-                                    <p>DashBoard</p>
+                                    {/* <img src={Home} className='SideBarIcon' alt='Home' /> */}
+                                    <FontAwesomeIcon className='SideBarIcon' icon={faHouseUser} />
+                                    <p className='sideBarIconName'>DashBoard</p>
                                 </a>
                             </li>
                             <li className='sideBarDivOneLI'>
                                 <a href='#about' className='sideBarAnchorIcons'>
-                                    <img src={About} className='SideBarAboutIcon' alt='About' />
-                                    <p>About</p>
+                                    <img src={About} className='SideBarIcon' alt='About' />
+                                    <p className='sideBarIconName'>About</p>
                                 </a>
                             </li>
                             <li className='sideBarDivOneLI'>
                                 <a href='#resume' className='sideBarAnchorIcons'>
-                                    <img src={Resume} className='SideBarResumeIcon' alt='Resume' />
-                                    <p>Resume</p>
+                                    <img src={Resume} className='SideBarIcon' alt='Resume' />
+                                    <p className='sideBarIconName'>Resume</p>
                                 </a>
                             </li>
                             <li className='sideBarDivOneLI'>
                                 <a href='#skills' className='sideBarAnchorIcons'>
-                                    <img src={Skills} className='SideBarSkillsIcon' alt='Skills' />
-                                    <p>Skills</p>
+                                    <img src={Skills} className='SideBarIcon' alt='Skills' />
+                                    <p className='sideBarIconName'>Skills</p>
                                 </a>
                             </li>
                             <li className='sideBarDivOneLI'>
                                 <a href='#services' className='sideBarAnchorIcons'>
-                                    <img src={Services} className='SideBarServicesIcon' alt='Services' />
-                                    <p>Services</p>
+                                    <img src={Services} className='SideBarIcon' alt='Services' />
+                                    <p className='sideBarIconName'>Services</p>
                                 </a>
                             </li>
                             <li className='sideBarDivOneLI'>
                                 <a href='#contact' className='sideBarAnchorIcons'>
-                                    <img src={Contact} className='SideBarContactIcon' alt='Contact' />
-                                    <p>Contact</p>
+                                    <img src={Contact} className='SideBarIcon' alt='Contact' />
+                                    <p className='sideBarIconName'>Contact</p>
                                 </a>
                             </li>
                         </ul>

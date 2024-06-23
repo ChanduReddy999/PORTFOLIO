@@ -7,7 +7,6 @@
   }
 
   .welcome {
-    /* height: 500px; */
     height: 400px;
     width: 1200px;
     background-size: cover;
@@ -22,6 +21,7 @@
   }
   .developer {
     padding-left: 350px;
+    color: rgb(99, 140, 229);
   }
 }
 
@@ -34,7 +34,8 @@
   }
 
   .welcome {
-    height: 100vh;
+    height: 500px;
+    width: 1240px;
     background-size: cover;
     background-image: url("../../Images/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.webp");
     background-repeat: no-repeat;
@@ -47,6 +48,8 @@
   }
   .developer {
     padding-left: 350px;
+    font-size: 30px;
+    color: rgb(99, 140, 229);
   }
 }
 
@@ -68,10 +71,12 @@
     color: aqua;
     padding-top: 200px;
     padding-left: 350px;
-    font-size: 40px;
+    font-size: 50px;
   }
   .developer {
     padding-left: 350px;
+    font-size: 30px;
+    color: rgb(99, 140, 229);
   }
 }
 
