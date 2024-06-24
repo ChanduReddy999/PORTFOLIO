@@ -7,21 +7,22 @@
   }
 
   .welcome {
-    height: 400px;
-    width: 1200px;
+    width: 100vw;
+    height: 100vh;
     background-size: cover;
     background-image: url("../../Images/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.webp");
     background-repeat: no-repeat;
   }
   .chandu {
-    color: aqua;
-    padding-top: 200px;
-    padding-left: 350px;
-    font-size: 40px;
+    color: rgb(234, 21, 77);
+    padding-top: 160px;
+    padding-left: 10px;
+    font-size: 22px;
   }
   .developer {
-    padding-left: 350px;
+    padding-left: 10px;
     color: rgb(99, 140, 229);
+    font-size: 16px;
   }
 }
 

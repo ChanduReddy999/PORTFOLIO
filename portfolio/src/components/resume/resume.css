@@ -1,32 +1,33 @@
 /* mobiles */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .resumeMain {
-    margin: 0px 50px 0 150px;
-    width: 900px;
-    height: 560px;
+    /* margin: 10px 0 0 0; */
+    width: 100%;
+    height: 100%;
     background-color: rgb(195, 252, 233);
     border-radius: 40px;
   }
   .resumeMain1 {
-    margin-top: 50px;
+    margin-top: 10px;
     /* padding-top: 30px; */
   }
 
   .resumeMain1Heading {
     color: blue;
-    font-size: 40px;
+    /* font-size: 40px; */
     text-align: center;
     padding-bottom: 10px;
-    padding-top: 50px;
+    padding-top: 10px;
   }
 
   .resumeMain1Para {
     text-align: justify;
     color: rgb(91, 145, 246);
-    padding: 0 40px 20px 40px;
+    padding: 0 20px 20px 20px;
+    font-size: 12px;
   }
   .resumeMain2 {
-    padding: 0 20px 20px 20px;
+    padding: 0 10px 10px 10px;
   }
   .resumeMain2Heading {
     color: blue;
@@ -34,7 +35,7 @@
   }
   .education {
     display: flex;
-    gap: 200px;
+    gap: 30px;
     margin-bottom: 20px;
   }
 

@@ -1,7 +1,7 @@
 /* mobiles */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .sideBarMain {
-    width: 1200px;
+    width: 100%;
     height: 12vh;
     background-color: white;
     position: fixed;
@@ -34,6 +34,7 @@
     background-color: white;
     height: 12vh;
     width: 880px;
+    display: none;
   }
 
   .sideBarDivOneUL {
