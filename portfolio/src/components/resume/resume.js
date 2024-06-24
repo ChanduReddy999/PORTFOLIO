@@ -13,7 +13,7 @@ const Resume = () => {
                     <h1 className='resumeMain2Heading'>Education</h1>
                     <div className='education'>
                         <div className='education14'>
-                            <h2>BACHELOR OF TECHNOLOGY</h2>
+                            <h2 className='educationHeading'>BACHELOR OF TECHNOLOGY</h2>
                             <div className='btechDiv'>
                                 <div className='educationSubDiv'>
                                     <p>2018 - 2022</p>
@@ -26,8 +26,8 @@ const Resume = () => {
                             <p className='educationBranch'>Holy Mary Institute of Technology and Science, Keesara</p>
                         </div>
                         <div className='education10'>
-                            <h2>SSC &#40;TS&#41;</h2>
-                            <div className='btechDiv'>
+                            <h2 className='educationHeading'>SSC &#40;TS&#41;</h2>
+                            <div className='btechDiv education10MobileYearGPA'>
                                 <div className='educationSubDiv'>
                                     <p>2015 - 2016</p>
                                 </div>
@@ -39,7 +39,7 @@ const Resume = () => {
                         </div>
                     </div>
                     <div className='education12'>
-                        <h2>BOARD OF INTERMEDIATE EDUCATION &#40;TS&#41;</h2>
+                        <h2 className='educationHeading'>BOARD OF INTERMEDIATE EDUCATION &#40;TS&#41;</h2>
                         <div className='btechDiv'>
                             <div className='educationSubDiv'>
                                 <p>2016 - 2018</p>

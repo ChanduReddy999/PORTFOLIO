@@ -1,59 +1,63 @@
 /* mobiles */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .contactPage {
-    margin: 50px 50px 20px 150px;
+    margin: 10px 0 0 0;
     background-color: aliceblue;
-    /* display: flex; */
-    height: 920px;
+    width: 100%;
+    height: 100%;
     border-radius: 40px;
-    width: 900px;
-    padding: 40px 0;
+    /* padding: 10px 0; */
   }
 
   .contactDetails1 {
     background-color: aquamarine;
-    margin-left: 220px;
+    /* margin-left: 20px; */
     border-radius: 20px;
-    width: 450px;
+    /* width: 450px; */
   }
 
   .contactDetails1SubDiv {
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
   }
 
   .contactDetails1SubDivHeading {
     color: blue;
   }
+  .contactDetails1SubDivPara{
+    font-size: 12px;
+  }
 
   .logoDimensions {
-    width: 40px;
+    width: 30px;
+    height: 30px;
   }
   .iconsmatter {
     display: flex;
     gap: 20px;
-    margin: 20px;
+    margin: 10px;
   }
   .contactDetails1SubDiv2Para {
-    padding-top: 10px;
+    padding-top: 7px;
+    font-size: 12px;
   }
 
   .contactDetails1SubDiv3 {
-    margin: 20px 80px;
+    margin: 20px 20px;
     display: flex;
     gap: 40px;
     padding-bottom: 20px;
   }
   .contactDetails2 {
     background-color: aquamarine;
-    margin-left: 220px;
+    margin-bottom: 20px;
     border-radius: 20px;
-    width: 450px;
+    width: 100%;
     padding-bottom: 20px;
   }
 
   .contactDetails2SubDiv {
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
   }
 
@@ -66,39 +70,39 @@
   }
 
   .contactDetails2SubDiv2 {
-    margin: 0 20px;
+    margin: 0 10px;
   }
 
   .contactData1 {
     display: flex;
-    gap: 20px;
+    gap: 10px;
   }
 
   .contactData1Div1 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .contactFullNameLabel {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 900;
     color: blue;
   }
   .contactFullNameInput {
     margin-top: 10px;
-    width: 185px;
+    width: 140px;
     height: 30px;
-    padding-left: 5px;
+    /* padding-left: 5px; */
     border-radius: 10px;
     border: 0 solid white;
   }
 
   .contactEmailLabel {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 900;
     color: blue;
   }
   .contactEmailInput {
     margin-top: 10px;
-    width: 185px;
+    width: 140px;
     height: 30px;
     padding-left: 5px;
     border-radius: 10px;
@@ -106,14 +110,14 @@
   }
 
   .contactSubjectLabel {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 900;
     color: blue;
   }
   .contactSubjectInput {
     margin-top: 10px;
-    margin-bottom: 20px;
-    width: 400px;
+    margin-bottom: 10px;
+    width: 290px;
     height: 30px;
     padding-left: 5px;
     border-radius: 10px;
@@ -121,15 +125,15 @@
   }
 
   .contactMessageLabel {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 900;
     color: blue;
   }
   .contactMessageTextarea {
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 400px;
-    height: 150px;
+    width: 280px;
+    height: 100px;
     padding: 5px;
     border-radius: 10px;
     border: 0 solid white;

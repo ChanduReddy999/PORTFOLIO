@@ -1,9 +1,9 @@
 /* mobiles */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .resumeMain {
-    /* margin: 10px 0 0 0; */
+    margin: 10px 0 10px 0;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     background-color: rgb(195, 252, 233);
     border-radius: 40px;
   }
@@ -35,28 +35,35 @@
   }
   .education {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     margin-bottom: 20px;
   }
-
+  .education10MobileYearGPA {
+    margin-top: 13px;
+  }
+  .educationHeading {
+    font-size: 12px;
+  }
   .btechDiv {
     display: flex;
     gap: 20px;
   }
 
   .educationSubDiv {
-    width: 100px;
-    height: 30px;
+    width: 60px;
+    height: 20px;
     background-color: rgb(241, 250, 250);
+    font-size: 10px;
     font-weight: 900;
     text-align: center;
     padding-top: 10px;
-    margin: 5px;
+    margin: 5px 0 5px 0;
     border-radius: 10px;
     color: rgb(0, 229, 172);
   }
 
   .educationBranch {
+    font-size: 10px;
     font-weight: 900;
     font-style: italic;
     padding: 5px 0 5px 5px;

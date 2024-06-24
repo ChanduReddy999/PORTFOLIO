@@ -1,17 +1,19 @@
 /* mobiles */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .footerDiv {
-    width: 1200px;
-    height: 55px;
+    width: 100%;
+    height: 45px;
     background-color: rgb(154, 214, 216);
     text-align: center;
     font-weight: bolder;
   }
   .footerP1 {
     padding-top: 10px;
+    font-size: 12px;
   }
   .footerP2 {
     padding-bottom: 10px;
+    font-size: 12px;
   }
   .footerP2Span {
     color: rgb(172, 111, 20);

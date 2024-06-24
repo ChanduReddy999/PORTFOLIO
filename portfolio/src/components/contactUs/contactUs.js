@@ -51,7 +51,7 @@ const ContactUs = () => {
                     <div className='contactDetails1SubDiv2'>
                         <div className='contactDetails1SubDiv2Location iconsmatter'>
                             <img src={location} alt='location' className='logoDimensions' />
-                            <p><span className='contactDetailsSpan'>Address :</span> KPHB 4th Phase, Hyderabad - 500038</p>
+                            <p className='contactDetails1SubDiv2Para'><span className='contactDetailsSpan'>Address :</span> KPHB 4th Phase, Hyderabad - 500038</p>
                         </div>
                         <div className='contactDetails1SubDiv2Phone iconsmatter'>
                             <img src={phone} alt='phone' className='logoDimensions' />
