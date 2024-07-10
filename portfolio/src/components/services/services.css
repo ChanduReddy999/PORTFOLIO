@@ -19,14 +19,15 @@
   }
   .serviceContainers{
     display: flex;
+    justify-content: space-evenly;
   }
 
   .servicesSubDiv {
     width: 144px;
-    height: 260px;
+    height: auto;
     background-color: rgb(102, 176, 236);
     margin-top: 10px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     border-radius: 10px;
   }
   .servicesSubDivImgDiv1 {

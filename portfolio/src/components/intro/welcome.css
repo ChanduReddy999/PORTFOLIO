@@ -8,21 +8,70 @@
 
   .welcome {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-image: url("../../Images/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.webp");
     background-repeat: no-repeat;
   }
   .chandu {
     color: rgb(234, 21, 77);
-    padding-top: 160px;
+    padding-top: 100px;
     padding-left: 10px;
     font-size: 22px;
+    animation: chanduAnimation 2s ease-in-out 2s infinite;
   }
   .developer {
     padding-left: 10px;
+    padding-bottom: 100px;
     color: rgb(99, 140, 229);
     font-size: 16px;
+    animation: developerAnimation 2s ease-in-out 2s infinite;
+  }
+  @keyframes chanduAnimation {
+    0%{
+      transform: translateY(-20px);
+      color: green;
+    }
+    25%{
+      transform: translateY(0px);
+      color: blue;
+    }
+    50%{
+      transform: translateY(0px);
+      color: darkcyan;
+    }
+    75%{
+      transform: translateY(0px);
+      color: magenta;
+    }
+    100%{
+      transform: translateY(0px);
+      color: red;
+      display: none;
+    }
+  }
+  @keyframes developerAnimation {
+    0%{
+      transform: translateY(-20px);
+      color: red;
+    }
+    25%{
+      transform: translateY(0px);
+      color: magenta;
+    }
+    50%{
+      transform: translateY(0px);
+      color: aqua;
+    }
+    75%{
+      transform: translateY(0px);
+      color: blue;
+    }
+    100%{
+      transform: translateY(0px);
+      color: green;
+      display: none;
+    }
   }
 }
 

@@ -6,6 +6,7 @@
     height: 100%;
     background-color: aquamarine;
     border-radius: 40px;
+    padding: 10px 0 40px 0;
   }
   .mySkillsFirstDivHeading {
     padding: 10px 0 0 0;
@@ -20,6 +21,7 @@
     background-color: aquamarine;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
+    animation: skillsAnimationDivAnime 30s ease-in 1s infinite;
     /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
   }
   .mySkillsThirdDiv {
@@ -30,7 +32,13 @@
     background-color: aquamarine;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
+    animation: skillsAnimationDivAnime 30s ease-in 1s infinite;
     /* box-shadow: 25px 15px 8px rgb(192, 240, 242); */
+  }
+  .mySkillsSecondDivSubs{
+    display: flex;
+    flex-wrap: wrap;        /* By using display flex, the div and h2 should be on same line but after using flex-wrap as wrap, they both as leveled one by one */
+    justify-content: center;
   }
   .skillsImg {
     width: 20px;
@@ -44,7 +52,7 @@
     font-size: 12px;
   }
   .skillsAnimationDiv {
-    /* margin-top: 30px; */
+    margin-top: 10px;
     width: 30px;
     height: 30px;
     margin-bottom: 10px;
@@ -60,6 +68,26 @@
     100% {
       transform: rotate(360deg);
     }
+  }
+  @keyframes skillsAnimationDivAnime {
+      0% {
+        transform: translateX(0%);
+      }
+      20% {
+        transform: translateX(-100%);
+      }
+      40% {
+        transform: translateX(0%);
+      }
+      60% {
+        transform: translateX(100%);
+      }
+      80% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
   }
 }
 

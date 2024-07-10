@@ -71,6 +71,8 @@
 
   .contactDetails2SubDiv2 {
     margin: 0 10px;
+    display: flex;
+    justify-content: center;
   }
 
   .contactData1 {
