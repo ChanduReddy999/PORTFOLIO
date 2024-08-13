@@ -55,15 +55,15 @@ const ContactUs = () => {
                         </div>
                         <div className='contactDetails1SubDiv2Phone iconsmatter'>
                             <img src={phone} alt='phone' className='logoDimensions' />
-                            <p className='contactDetails1SubDiv2Para'><span className='contactDetailsSpan'>Phone :</span> <a href='tel:+919381317527' className='mobileNumber'>+91 93813 17527</a> </p>
+                            <p className='contactDetails1SubDiv2Para'><span className='contactDetailsSpan'>Phone :</span> <a href='tel:+919381317527' className='mobileNumber LinkHighLighter'>+91 93813 17527</a> </p>
                         </div>
                         <div className='contactDetails1SubDiv2Email iconsmatter'>
                             <img src={email} alt='email' className='logoDimensions' />
-                            <p className='contactDetails1SubDiv2Para'><span className='contactDetailsSpan'>Email :</span> <a href='mailto:chandureddyvadala1999@gmail.com' className='EmailID'>chandureddyvadala1999@gmail.com</a> </p>
+                            <p className='contactDetails1SubDiv2Para'><span className='contactDetailsSpan'>Email :</span> <a href='mailto:chandureddyvadala1999@gmail.com' className='EmailID LinkHighLighter'>chandureddyvadala1999@gmail.com</a> </p>
                         </div>
                         <div className='contactDetails1SubDiv2Website iconsmatter'>
                             <img src={website} alt='website' className='logoDimensions' />
-                            <p className='contactDetails1SubDiv2Para'><span className='contactDetailsSpan'>Website :</span> <a href='https://chandureddyvadala.netlify.app/' className='myWebsite'>Portfolio</a> </p>
+                            <p className='contactDetails1SubDiv2Para'><span className='contactDetailsSpan'>Website :</span> <a href='https://chandureddyvadala.netlify.app/' className='myWebsite LinkHighLighter'>Portfolio</a> </p>
                         </div>
                     </div>
                     <div className='contactDetails1SubDiv3'>

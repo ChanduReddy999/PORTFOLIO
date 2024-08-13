@@ -7,7 +7,8 @@ import Python from '../../Images/Python.webp'
 import NodeJS from '../../Images/nodejs.png'
 import MySQL from '../../Images/mysql.png'
 import MSSQL from '../../Images/mssql.png'
-import Django from '../../Images/django.png'
+// import Django from '../../Images/django.png'
+import Tableau from '../../Images/tableau.png'
 import ReactJS from '../../Images/reactjs.png'
 import ExpressJS from '../../Images/expressjs.png'
 
@@ -66,9 +67,9 @@ const Skills = () => {
                     </div>
                     <div className='mySkillsSecondDivSubs'>
                         <div className='skillsAnimationDiv'>
-                            <img src={Django} className='skillsImg' alt='Django Pic' />
+                            <img src={Tableau} className='skillsImg' alt='Tableau Pic' />
                         </div>
-                        <h2 className='mySkillsSecondDivH2'>DJANGO</h2>
+                        <h2 className='mySkillsSecondDivH2'>TABLEAU</h2>
                     </div>
                     <div className='mySkillsSecondDivSubs'>
                         <div className='skillsAnimationDiv'>

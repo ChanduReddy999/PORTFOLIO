@@ -63,23 +63,44 @@
     text-align: justify;
     font-size: 12px;
   }
-  .mobileNumber{
+  .mobileNumber {
     text-decoration: none;
     color: black;
   }
-  .mobileNumber:hover{
+  .mobileNumber:hover {
     color: blue;
     text-decoration: underline;
     font-weight: 600;
   }
-  .EmailID{
+  .EmailID {
     text-decoration: none;
     color: black;
   }
-  .EmailID:hover{
+  .EmailID:hover {
     color: blue;
     text-decoration: underline;
     font-weight: 600;
+  }
+  .LinkHighLighter {
+    animation: linkAnimation 10s linear 1s infinite;
+  }
+  @keyframes linkAnimation {
+    0%,
+    100% {
+      background: linear-gradient(45deg, red, green, blue, orange, magenta);
+      background-clip: text;
+      color: transparent;
+    }
+    50% {
+      background: linear-gradient(45deg, green, blue, orange, magenta, red);
+      background-clip: text;
+      color: transparent;
+    }
+    75% {
+      background: linear-gradient(45deg, blue, orange, magenta, red, green);
+      background-clip: text;
+      color: transparent;
+    }
   }
 }
 
@@ -138,23 +159,44 @@
   .personalInfoAboutP {
     text-align: justify;
   }
-  .mobileNumber{
+  .mobileNumber {
     text-decoration: none;
     color: black;
   }
-  .mobileNumber:hover{
+  .mobileNumber:hover {
     color: blue;
     text-decoration: underline;
     font-weight: 600;
   }
-  .EmailID{
+  .EmailID {
     text-decoration: none;
     color: black;
   }
-  .EmailID:hover{
+  .EmailID:hover {
     color: blue;
     text-decoration: underline;
     font-weight: 600;
+  }
+  .LinkHighLighter {
+    animation: linkAnimation 10s linear 1s infinite;
+  }
+  @keyframes linkAnimation {
+    0%,
+    100% {
+      background: linear-gradient(45deg, red, green, blue, orange, magenta);
+      background-clip: text;
+      color: transparent;
+    }
+    50% {
+      background: linear-gradient(45deg, green, blue, orange, magenta, red);
+      background-clip: text;
+      color: transparent;
+    }
+    75% {
+      background: linear-gradient(45deg, blue, orange, magenta, red, green);
+      background-clip: text;
+      color: transparent;
+    }
   }
 }
 
@@ -218,23 +260,44 @@
     padding: 0 20px;
     text-align: justify;
   }
-  .mobileNumber{
+  .mobileNumber {
     text-decoration: none;
     color: black;
   }
-  .mobileNumber:hover{
-    color: blue;
+  .mobileNumber:hover {
+    /* color: blue; */
     text-decoration: underline;
     font-weight: 600;
   }
-  .EmailID{
+  .EmailID {
     text-decoration: none;
     color: black;
   }
-  .EmailID:hover{
-    color: blue;
+  .EmailID:hover {
+    /* color: blue; */
     text-decoration: underline;
     font-weight: 600;
+  }
+  .LinkHighLighter {
+    animation: linkAnimation 10s linear 1s infinite;
+  }
+  @keyframes linkAnimation {
+    0%,
+    100% {
+      background: linear-gradient(45deg, red, green, blue, orange, magenta);
+      background-clip: text;
+      color: transparent;
+    }
+    50% {
+      background: linear-gradient(45deg, green, blue, orange, magenta, red);
+      background-clip: text;
+      color: transparent;
+    }
+    75% {
+      background: linear-gradient(45deg, blue, orange, magenta, red, green);
+      background-clip: text;
+      color: transparent;
+    }
   }
 }
 
@@ -293,22 +356,43 @@
   .personalInfoAboutP {
     text-align: justify;
   }
-  .mobileNumber{
+  .mobileNumber {
     text-decoration: none;
     color: black;
   }
-  .mobileNumber:hover{
+  .mobileNumber:hover {
     color: blue;
     text-decoration: underline;
     font-weight: 600;
   }
-  .EmailID{
+  .EmailID {
     text-decoration: none;
     color: black;
   }
-  .EmailID:hover{
+  .EmailID:hover {
     color: blue;
     text-decoration: underline;
     font-weight: 600;
+  }
+  .LinkHighLighter {
+    animation: linkAnimation 10s linear 1s infinite;
+  }
+  @keyframes linkAnimation {
+    0%,
+    100% {
+      background: linear-gradient(45deg, red, green, blue, orange, magenta);
+      background-clip: text;
+      color: transparent;
+    }
+    50% {
+      background: linear-gradient(45deg, green, blue, orange, magenta, red);
+      background-clip: text;
+      color: transparent;
+    }
+    75% {
+      background: linear-gradient(45deg, blue, orange, magenta, red, green);
+      background-clip: text;
+      color: transparent;
+    }
   }
 }
